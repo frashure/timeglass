@@ -131,6 +131,8 @@ export default function WorldMap({ onCountrySelect, selectedCountryId }) {
       maxZoom={6}
       style={{ height: '100%', width: '100%' }}
       worldCopyJump={false}
+      maxBounds={[[-90, -180], [90, 180]]}
+      maxBoundsViscosity={1.0}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'

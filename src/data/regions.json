@@ -5,115 +5,40 @@
       "center": [48, 8],
       "eras": [
         {
-          "id": "ancient",
-          "label": "Ancient",
-          "range": [-3000, 500],
-          "display": "3000 BCE – 500 CE",
+          "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Roman Empire: A History",
-              "creator": "Ovation TV",
-              "url": "https://www.youtube.com/results?search_query=Ovation+TV+Roman+Empire+History"
-            },
-            {
-              "type": "video",
-              "title": "Ancient Greece: Crash Course World History",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Ancient+Greece+World+History"
-            },
-            {
-              "type": "book",
-              "title": "SPQR: A History of Ancient Rome",
-              "creator": "Mary Beard",
-              "url": "https://openlibrary.org/search?q=SPQR+Mary+Beard"
-            },
-            {
-              "type": "book",
-              "title": "The Histories",
-              "creator": "Herodotus",
-              "url": "https://openlibrary.org/search?q=The+Histories+Herodotus"
-            }
+            { "type": "video", "title": "The Roman Empire: A History", "creator": "Ovation TV", "url": "https://www.youtube.com/results?search_query=Ovation+TV+Roman+Empire+History" },
+            { "type": "video", "title": "The Persians & Greeks: Crash Course World History #5", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=Q-mkVSasZIM" },
+            { "type": "book", "title": "SPQR: A History of Ancient Rome", "creator": "Mary Beard", "url": "https://openlibrary.org/works/OL21562242W" },
+            { "type": "book", "title": "The Histories", "creator": "Herodotus", "url": "https://openlibrary.org/works/OL15678067W" }
           ]
         },
         {
-          "id": "medieval",
-          "label": "Medieval",
-          "range": [500, 1500],
-          "display": "500 – 1500 CE",
+          "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Middle Ages in 3½ Hours",
-              "creator": "History Matters",
-              "url": "https://www.youtube.com/results?search_query=History+Matters+Middle+Ages+3+hours"
-            },
-            {
-              "type": "book",
-              "title": "The Time Traveller's Guide to Medieval England",
-              "creator": "Ian Mortimer",
-              "url": "https://openlibrary.org/search?q=Time+Traveller%27s+Guide+Medieval+England+Ian+Mortimer"
-            }
+            { "type": "video", "title": "The Middle Ages in 3½ Hours", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=History+Matters+Middle+Ages+3+hours" },
+            { "type": "book", "title": "The Time Traveller's Guide to Medieval England", "creator": "Ian Mortimer", "url": "https://openlibrary.org/search?q=Time+Traveller%27s+Guide+Medieval+England+Ian+Mortimer" }
           ]
         },
         {
-          "id": "early-modern",
-          "label": "Early Modern",
-          "range": [1500, 1800],
-          "display": "1500 – 1800 CE",
+          "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Renaissance: Was it a Thing?",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Renaissance+Was+it+a+Thing"
-            },
-            {
-              "type": "book",
-              "title": "The Cheese and the Worms",
-              "creator": "Carlo Ginzburg",
-              "url": "https://openlibrary.org/search?q=Cheese+and+the+Worms+Carlo+Ginzburg"
-            }
+            { "type": "video", "title": "The Renaissance: Was it a Thing? — Crash Course World History #22", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=Vufba_ZcoR0" },
+            { "type": "book", "title": "The Cheese and the Worms", "creator": "Carlo Ginzburg", "url": "https://openlibrary.org/search?q=Cheese+and+the+Worms+Carlo+Ginzburg" }
           ]
         },
         {
-          "id": "modern",
-          "label": "Modern",
-          "range": [1800, 1945],
-          "display": "1800 – 1945 CE",
+          "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "World War I: The War That Changed Everything",
-              "creator": "DW Documentary",
-              "url": "https://www.youtube.com/results?search_query=DW+Documentary+World+War+I+Changed+Everything"
-            },
-            {
-              "type": "book",
-              "title": "The Sleepwalkers",
-              "creator": "Christopher Clark",
-              "url": "https://openlibrary.org/search?q=Sleepwalkers+Christopher+Clark"
-            }
+            { "type": "video", "title": "World War I: The War That Changed Everything", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=DW+Documentary+World+War+I+Changed+Everything" },
+            { "type": "book", "title": "The Sleepwalkers", "creator": "Christopher Clark", "url": "https://openlibrary.org/search?q=Sleepwalkers+Christopher+Clark" }
           ]
         },
         {
-          "id": "contemporary",
-          "label": "Contemporary",
-          "range": [1945, 2025],
-          "display": "1945 – Present",
+          "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Cold War — OverSimplified",
-              "creator": "OverSimplified",
-              "url": "https://www.youtube.com/results?search_query=OverSimplified+Cold+War"
-            },
-            {
-              "type": "book",
-              "title": "Postwar: A History of Europe Since 1945",
-              "creator": "Tony Judt",
-              "url": "https://openlibrary.org/search?q=Postwar+History+Europe+Since+1945+Tony+Judt"
-            }
+            { "type": "video", "title": "The Cold War — OverSimplified (Part 1)", "creator": "OverSimplified", "url": "https://www.youtube.com/watch?v=I79TpDe3t2g" },
+            { "type": "book", "title": "Postwar: A History of Europe Since 1945", "creator": "Tony Judt", "url": "https://openlibrary.org/works/OL1894813W" }
           ]
         }
       ]
@@ -123,103 +48,38 @@
       "center": [35, 115],
       "eras": [
         {
-          "id": "ancient",
-          "label": "Ancient",
-          "range": [-3000, 500],
-          "display": "3000 BCE – 500 CE",
+          "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "Ancient China: The Shang Dynasty",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Ancient+China+Shang+Dynasty"
-            },
-            {
-              "type": "book",
-              "title": "The Early Chinese Empires: Qin and Han",
-              "creator": "Mark Edward Lewis",
-              "url": "https://openlibrary.org/search?q=Early+Chinese+Empires+Qin+Han+Mark+Edward+Lewis"
-            }
+            { "type": "video", "title": "2,000 Years of Chinese History!: Crash Course World History #7", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=ylWORyToTo4" },
+            { "type": "book", "title": "The Early Chinese Empires: Qin and Han", "creator": "Mark Edward Lewis", "url": "https://openlibrary.org/search?q=Early+Chinese+Empires+Qin+Han+Mark+Edward+Lewis" }
           ]
         },
         {
-          "id": "medieval",
-          "label": "Medieval",
-          "range": [500, 1500],
-          "display": "500 – 1500 CE",
+          "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Mongol Empire",
-              "creator": "Kings and Generals",
-              "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Mongol+Empire"
-            },
-            {
-              "type": "book",
-              "title": "Genghis Khan and the Making of the Modern World",
-              "creator": "Jack Weatherford",
-              "url": "https://openlibrary.org/search?q=Genghis+Khan+Making+Modern+World+Jack+Weatherford"
-            }
+            { "type": "video", "title": "Wait For It...The Mongols!: Crash Course World History #17", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=szxPar0BcMo" },
+            { "type": "book", "title": "Genghis Khan and the Making of the Modern World", "creator": "Jack Weatherford", "url": "https://openlibrary.org/works/OL8162628W" }
           ]
         },
         {
-          "id": "early-modern",
-          "label": "Early Modern",
-          "range": [1500, 1800],
-          "display": "1500 – 1800 CE",
+          "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Ming Dynasty",
-              "creator": "History with Cy",
-              "url": "https://www.youtube.com/results?search_query=History+with+Cy+Ming+Dynasty"
-            },
-            {
-              "type": "book",
-              "title": "1587: A Year of No Significance",
-              "creator": "Ray Huang",
-              "url": "https://openlibrary.org/search?q=1587+Year+No+Significance+Ray+Huang"
-            }
+            { "type": "video", "title": "The Ming Dynasty", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=History+with+Cy+Ming+Dynasty" },
+            { "type": "book", "title": "1587: A Year of No Significance", "creator": "Ray Huang", "url": "https://openlibrary.org/search?q=1587+Year+No+Significance+Ray+Huang" }
           ]
         },
         {
-          "id": "modern",
-          "label": "Modern",
-          "range": [1800, 1945],
-          "display": "1800 – 1945 CE",
+          "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Meiji Restoration",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Meiji+Restoration"
-            },
-            {
-              "type": "book",
-              "title": "The Opium War",
-              "creator": "Julia Lovell",
-              "url": "https://openlibrary.org/search?q=Opium+War+Julia+Lovell"
-            }
+            { "type": "video", "title": "Samurai, Daimyo, Matthew Perry, and Nationalism: Crash Course World History #34", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=Nosq94oCl_M" },
+            { "type": "book", "title": "The Opium War", "creator": "Julia Lovell", "url": "https://openlibrary.org/search?q=Opium+War+Julia+Lovell" }
           ]
         },
         {
-          "id": "contemporary",
-          "label": "Contemporary",
-          "range": [1945, 2025],
-          "display": "1945 – Present",
+          "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Chinese Cultural Revolution",
-              "creator": "DW Documentary",
-              "url": "https://www.youtube.com/results?search_query=DW+Documentary+Chinese+Cultural+Revolution"
-            },
-            {
-              "type": "book",
-              "title": "The Party: The Secret World of China's Communist Rulers",
-              "creator": "Richard McGregor",
-              "url": "https://openlibrary.org/search?q=The+Party+Secret+World+China+Communist+Rulers+Richard+McGregor"
-            }
+            { "type": "video", "title": "The Chinese Cultural Revolution", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=DW+Documentary+Chinese+Cultural+Revolution" },
+            { "type": "book", "title": "The Party: The Secret World of China's Communist Rulers", "creator": "Richard McGregor", "url": "https://openlibrary.org/search?q=The+Party+Secret+World+China+Communist+Rulers+Richard+McGregor" }
           ]
         }
       ]
@@ -229,103 +89,38 @@
       "center": [27, 40],
       "eras": [
         {
-          "id": "ancient",
-          "label": "Ancient",
-          "range": [-3000, 500],
-          "display": "3000 BCE – 500 CE",
+          "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "Ancient Egypt: Crash Course World History",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Ancient+Egypt+World+History"
-            },
-            {
-              "type": "book",
-              "title": "The Oxford History of Ancient Egypt",
-              "creator": "Ian Shaw (ed.)",
-              "url": "https://openlibrary.org/search?q=Oxford+History+Ancient+Egypt+Ian+Shaw"
-            }
+            { "type": "video", "title": "Ancient Egypt: Crash Course World History #4", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=Z3Wvw6BivVI" },
+            { "type": "book", "title": "The Oxford History of Ancient Egypt", "creator": "Ian Shaw (ed.)", "url": "https://openlibrary.org/search?q=Oxford+History+Ancient+Egypt+Ian+Shaw" }
           ]
         },
         {
-          "id": "medieval",
-          "label": "Medieval",
-          "range": [500, 1500],
-          "display": "500 – 1500 CE",
+          "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Islamic Golden Age",
-              "creator": "TED-Ed",
-              "url": "https://www.youtube.com/results?search_query=TED-Ed+Islamic+Golden+Age"
-            },
-            {
-              "type": "book",
-              "title": "The House of Wisdom",
-              "creator": "Jim Al-Khalili",
-              "url": "https://openlibrary.org/search?q=House+of+Wisdom+Jim+Al-Khalili"
-            }
+            { "type": "video", "title": "A Day in the Life of a Teenager in Medieval Baghdad", "creator": "TED-Ed", "url": "https://www.youtube.com/watch?v=CNO9aOlGNkE" },
+            { "type": "book", "title": "The House of Wisdom", "creator": "Jim Al-Khalili", "url": "https://openlibrary.org/search?q=House+of+Wisdom+Jim+Al-Khalili" }
           ]
         },
         {
-          "id": "early-modern",
-          "label": "Early Modern",
-          "range": [1500, 1800],
-          "display": "1500 – 1800 CE",
+          "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Ottoman Empire",
-              "creator": "Kings and Generals",
-              "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Ottoman+Empire"
-            },
-            {
-              "type": "book",
-              "title": "Lord of the Horizons: A History of the Ottoman Empire",
-              "creator": "Jason Goodwin",
-              "url": "https://openlibrary.org/search?q=Lord+of+the+Horizons+Ottoman+Empire+Jason+Goodwin"
-            }
+            { "type": "video", "title": "The Ottoman Empire", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Ottoman+Empire" },
+            { "type": "book", "title": "Lord of the Horizons: A History of the Ottoman Empire", "creator": "Jason Goodwin", "url": "https://openlibrary.org/search?q=Lord+of+the+Horizons+Ottoman+Empire+Jason+Goodwin" }
           ]
         },
         {
-          "id": "modern",
-          "label": "Modern",
-          "range": [1800, 1945],
-          "display": "1800 – 1945 CE",
+          "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Fall of the Ottoman Empire",
-              "creator": "History Matters",
-              "url": "https://www.youtube.com/results?search_query=History+Matters+Fall+Ottoman+Empire"
-            },
-            {
-              "type": "book",
-              "title": "A Peace to End All Peace",
-              "creator": "David Fromkin",
-              "url": "https://openlibrary.org/search?q=Peace+to+End+All+Peace+David+Fromkin"
-            }
+            { "type": "video", "title": "The Fall of the Ottoman Empire", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=History+Matters+Fall+Ottoman+Empire" },
+            { "type": "book", "title": "A Peace to End All Peace", "creator": "David Fromkin", "url": "https://openlibrary.org/works/OL466594W" }
           ]
         },
         {
-          "id": "contemporary",
-          "label": "Contemporary",
-          "range": [1945, 2025],
-          "display": "1945 – Present",
+          "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Arab-Israeli Conflict",
-              "creator": "Vox",
-              "url": "https://www.youtube.com/results?search_query=Vox+Arab-Israeli+Conflict+explained"
-            },
-            {
-              "type": "book",
-              "title": "The Arabs: A History",
-              "creator": "Eugene Rogan",
-              "url": "https://openlibrary.org/search?q=The+Arabs+A+History+Eugene+Rogan"
-            }
+            { "type": "video", "title": "The Arab-Israeli Conflict", "creator": "Vox", "url": "https://www.youtube.com/results?search_query=Vox+Arab-Israeli+Conflict+explained" },
+            { "type": "book", "title": "The Arabs: A History", "creator": "Eugene Rogan", "url": "https://openlibrary.org/works/OL19333379W" }
           ]
         }
       ]
@@ -335,103 +130,38 @@
       "center": [5, 20],
       "eras": [
         {
-          "id": "ancient",
-          "label": "Ancient",
-          "range": [-3000, 500],
-          "display": "3000 BCE – 500 CE",
+          "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "Africa's Great Civilizations",
-              "creator": "PBS",
-              "url": "https://www.youtube.com/results?search_query=PBS+Africa%27s+Great+Civilizations"
-            },
-            {
-              "type": "book",
-              "title": "Nubia: Ancient Kingdoms of Africa",
-              "creator": "Joyce Tyldesley",
-              "url": "https://openlibrary.org/search?q=Nubia+Ancient+Kingdoms+Africa+Joyce+Tyldesley"
-            }
+            { "type": "video", "title": "Africa's Great Civilizations", "creator": "PBS", "url": "https://www.youtube.com/results?search_query=PBS+Africa%27s+Great+Civilizations" },
+            { "type": "book", "title": "Nubia: Ancient Kingdoms of Africa", "creator": "Joyce Tyldesley", "url": "https://openlibrary.org/search?q=Nubia+Ancient+Kingdoms+Africa+Joyce+Tyldesley" }
           ]
         },
         {
-          "id": "medieval",
-          "label": "Medieval",
-          "range": [500, 1500],
-          "display": "500 – 1500 CE",
+          "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "Mansa Musa and Islam in Africa",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Mansa+Musa+Islam+Africa"
-            },
-            {
-              "type": "book",
-              "title": "The Swahili: The Social Landscape of a Mercantile Society",
-              "creator": "Mark Horton & John Middleton",
-              "url": "https://openlibrary.org/search?q=The+Swahili+Social+Landscape+Mercantile+Society+Horton+Middleton"
-            }
+            { "type": "video", "title": "Mansa Musa and Islam in Africa: Crash Course World History #16", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=jvnU0v6hcUo" },
+            { "type": "book", "title": "The Swahili: The Social Landscape of a Mercantile Society", "creator": "Mark Horton & John Middleton", "url": "https://openlibrary.org/search?q=The+Swahili+Social+Landscape+Mercantile+Society+Horton+Middleton" }
           ]
         },
         {
-          "id": "early-modern",
-          "label": "Early Modern",
-          "range": [1500, 1800],
-          "display": "1500 – 1800 CE",
+          "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Atlantic Slave Trade",
-              "creator": "TED-Ed",
-              "url": "https://www.youtube.com/results?search_query=TED-Ed+Atlantic+Slave+Trade"
-            },
-            {
-              "type": "book",
-              "title": "The Slave Ship: A Human History",
-              "creator": "Marcus Rediker",
-              "url": "https://openlibrary.org/search?q=Slave+Ship+Human+History+Marcus+Rediker"
-            }
+            { "type": "video", "title": "The Atlantic Slave Trade: What Too Few Textbooks Told You", "creator": "TED-Ed", "url": "https://www.youtube.com/watch?v=3NXC4Q_4JVg" },
+            { "type": "book", "title": "The Slave Ship: A Human History", "creator": "Marcus Rediker", "url": "https://openlibrary.org/search?q=Slave+Ship+Human+History+Marcus+Rediker" }
           ]
         },
         {
-          "id": "modern",
-          "label": "Modern",
-          "range": [1800, 1945],
-          "display": "1800 – 1945 CE",
+          "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Scramble for Africa",
-              "creator": "History Matters",
-              "url": "https://www.youtube.com/results?search_query=History+Matters+Scramble+for+Africa"
-            },
-            {
-              "type": "book",
-              "title": "King Leopold's Ghost",
-              "creator": "Adam Hochschild",
-              "url": "https://openlibrary.org/search?q=King+Leopold%27s+Ghost+Adam+Hochschild"
-            }
+            { "type": "video", "title": "The Scramble for Africa", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=History+Matters+Scramble+for+Africa" },
+            { "type": "book", "title": "King Leopold's Ghost", "creator": "Adam Hochschild", "url": "https://openlibrary.org/works/OL1869541W" }
           ]
         },
         {
-          "id": "contemporary",
-          "label": "Contemporary",
-          "range": [1945, 2025],
-          "display": "1945 – Present",
+          "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
           "resources": [
-            {
-              "type": "video",
-              "title": "The End of Apartheid",
-              "creator": "DW Documentary",
-              "url": "https://www.youtube.com/results?search_query=DW+Documentary+End+of+Apartheid"
-            },
-            {
-              "type": "book",
-              "title": "Long Walk to Freedom",
-              "creator": "Nelson Mandela",
-              "url": "https://openlibrary.org/search?q=Long+Walk+to+Freedom+Nelson+Mandela"
-            }
+            { "type": "video", "title": "The End of Apartheid", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=DW+Documentary+End+of+Apartheid" },
+            { "type": "book", "title": "Long Walk to Freedom", "creator": "Nelson Mandela", "url": "https://openlibrary.org/works/OL1783377W" }
           ]
         }
       ]
@@ -441,103 +171,38 @@
       "center": [22, 80],
       "eras": [
         {
-          "id": "ancient",
-          "label": "Ancient",
-          "range": [-3000, 500],
-          "display": "3000 BCE – 500 CE",
+          "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Indus Valley Civilization",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Indus+Valley+Civilization"
-            },
-            {
-              "type": "book",
-              "title": "The Hindus: An Alternative History",
-              "creator": "Wendy Doniger",
-              "url": "https://openlibrary.org/search?q=The+Hindus+Alternative+History+Wendy+Doniger"
-            }
+            { "type": "video", "title": "Indus Valley Civilization: Crash Course World History #2", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=n7ndRwqJYDM" },
+            { "type": "book", "title": "The Hindus: An Alternative History", "creator": "Wendy Doniger", "url": "https://openlibrary.org/search?q=The+Hindus+Alternative+History+Wendy+Doniger" }
           ]
         },
         {
-          "id": "medieval",
-          "label": "Medieval",
-          "range": [500, 1500],
-          "display": "500 – 1500 CE",
+          "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Gupta Empire",
-              "creator": "Kings and Generals",
-              "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Gupta+Empire+India"
-            },
-            {
-              "type": "book",
-              "title": "Early India: From the Origins to AD 1300",
-              "creator": "Romila Thapar",
-              "url": "https://openlibrary.org/search?q=Early+India+Origins+AD+1300+Romila+Thapar"
-            }
+            { "type": "video", "title": "The Gupta Empire", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Gupta+Empire+India" },
+            { "type": "book", "title": "Early India: From the Origins to AD 1300", "creator": "Romila Thapar", "url": "https://openlibrary.org/search?q=Early+India+Origins+AD+1300+Romila+Thapar" }
           ]
         },
         {
-          "id": "early-modern",
-          "label": "Early Modern",
-          "range": [1500, 1800],
-          "display": "1500 – 1800 CE",
+          "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Mughal Empire",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Mughal+Empire"
-            },
-            {
-              "type": "book",
-              "title": "The Mughal Empire",
-              "creator": "John F. Richards",
-              "url": "https://openlibrary.org/search?q=Mughal+Empire+John+F+Richards"
-            }
+            { "type": "video", "title": "The Mughal Empire and Historical Reputation: Crash Course World History #217", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=nbuM0aJjVgE" },
+            { "type": "book", "title": "The Mughal Empire", "creator": "John F. Richards", "url": "https://openlibrary.org/search?q=Mughal+Empire+John+F+Richards" }
           ]
         },
         {
-          "id": "modern",
-          "label": "Modern",
-          "range": [1800, 1945],
-          "display": "1800 – 1945 CE",
+          "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The British Raj",
-              "creator": "History Matters",
-              "url": "https://www.youtube.com/results?search_query=History+Matters+British+Raj+India"
-            },
-            {
-              "type": "book",
-              "title": "Inglorious Empire",
-              "creator": "Shashi Tharoor",
-              "url": "https://openlibrary.org/search?q=Inglorious+Empire+Shashi+Tharoor"
-            }
+            { "type": "video", "title": "The British Raj", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=History+Matters+British+Raj+India" },
+            { "type": "book", "title": "Inglorious Empire", "creator": "Shashi Tharoor", "url": "https://openlibrary.org/works/OL20215345W" }
           ]
         },
         {
-          "id": "contemporary",
-          "label": "Contemporary",
-          "range": [1945, 2025],
-          "display": "1945 – Present",
+          "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Partition of India",
-              "creator": "DW Documentary",
-              "url": "https://www.youtube.com/results?search_query=DW+Documentary+Partition+of+India+1947"
-            },
-            {
-              "type": "book",
-              "title": "Freedom at Midnight",
-              "creator": "Larry Collins & Dominique Lapierre",
-              "url": "https://openlibrary.org/search?q=Freedom+at+Midnight+Collins+Lapierre"
-            }
+            { "type": "video", "title": "The Partition of India", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=DW+Documentary+Partition+of+India+1947" },
+            { "type": "book", "title": "Freedom at Midnight", "creator": "Larry Collins & Dominique Lapierre", "url": "https://openlibrary.org/works/OL1751683W" }
           ]
         }
       ]
@@ -547,103 +212,38 @@
       "center": [45, -100],
       "eras": [
         {
-          "id": "ancient",
-          "label": "Ancient",
-          "range": [-3000, 500],
-          "display": "3000 BCE – 500 CE",
+          "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The First Americans",
-              "creator": "PBS Eons",
-              "url": "https://www.youtube.com/results?search_query=PBS+Eons+First+Americans"
-            },
-            {
-              "type": "book",
-              "title": "1491: New Revelations of the Americas Before Columbus",
-              "creator": "Charles C. Mann",
-              "url": "https://openlibrary.org/search?q=1491+New+Revelations+Americas+Before+Columbus+Charles+Mann"
-            }
+            { "type": "video", "title": "The First Americans", "creator": "PBS Eons", "url": "https://www.youtube.com/results?search_query=PBS+Eons+First+Americans" },
+            { "type": "book", "title": "1491: New Revelations of the Americas Before Columbus", "creator": "Charles C. Mann", "url": "https://openlibrary.org/works/OL3494320W" }
           ]
         },
         {
-          "id": "medieval",
-          "label": "Medieval",
-          "range": [500, 1500],
-          "display": "500 – 1500 CE",
+          "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "Cahokia: America's Lost City",
-              "creator": "Smithsonian Channel",
-              "url": "https://www.youtube.com/results?search_query=Smithsonian+Cahokia+America%27s+Lost+City"
-            },
-            {
-              "type": "book",
-              "title": "The Vikings in North America",
-              "creator": "Kirsten Seaver",
-              "url": "https://openlibrary.org/search?q=Vikings+North+America+Kirsten+Seaver"
-            }
+            { "type": "video", "title": "Cahokia: America's Lost City", "creator": "Smithsonian Channel", "url": "https://www.youtube.com/results?search_query=Smithsonian+Cahokia+America%27s+Lost+City" },
+            { "type": "book", "title": "The Vikings in North America", "creator": "Kirsten Seaver", "url": "https://openlibrary.org/search?q=Vikings+North+America+Kirsten+Seaver" }
           ]
         },
         {
-          "id": "early-modern",
-          "label": "Early Modern",
-          "range": [1500, 1800],
-          "display": "1500 – 1800 CE",
+          "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "Colonial America",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Colonial+America"
-            },
-            {
-              "type": "book",
-              "title": "The Barbarous Years: The Peopling of British North America",
-              "creator": "Bernard Bailyn",
-              "url": "https://openlibrary.org/search?q=Barbarous+Years+Peopling+British+North+America+Bernard+Bailyn"
-            }
+            { "type": "video", "title": "When is Thanksgiving? Colonizing America: Crash Course US History #2", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=o69TvQqyGdg" },
+            { "type": "book", "title": "The Barbarous Years: The Peopling of British North America", "creator": "Bernard Bailyn", "url": "https://openlibrary.org/search?q=Barbarous+Years+Peopling+British+North+America+Bernard+Bailyn" }
           ]
         },
         {
-          "id": "modern",
-          "label": "Modern",
-          "range": [1800, 1945],
-          "display": "1800 – 1945 CE",
+          "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The American Civil War",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+American+Civil+War"
-            },
-            {
-              "type": "book",
-              "title": "Battle Cry of Freedom",
-              "creator": "James M. McPherson",
-              "url": "https://openlibrary.org/search?q=Battle+Cry+of+Freedom+James+McPherson"
-            }
+            { "type": "video", "title": "The Civil War, Part I: Crash Course US History #20", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=rY9zHNOjGrs" },
+            { "type": "book", "title": "Battle Cry of Freedom", "creator": "James M. McPherson", "url": "https://openlibrary.org/works/OL51158W" }
           ]
         },
         {
-          "id": "contemporary",
-          "label": "Contemporary",
-          "range": [1945, 2025],
-          "display": "1945 – Present",
+          "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Civil Rights Movement",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Civil+Rights+Movement"
-            },
-            {
-              "type": "book",
-              "title": "The Power Broker",
-              "creator": "Robert Caro",
-              "url": "https://openlibrary.org/search?q=Power+Broker+Robert+Moses+Robert+Caro"
-            }
+            { "type": "video", "title": "Civil Rights and the 1950s: Crash Course US History #39", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=S64zRnnn4Po" },
+            { "type": "book", "title": "The Power Broker", "creator": "Robert Caro", "url": "https://openlibrary.org/works/OL4195860W" }
           ]
         }
       ]
@@ -653,103 +253,38 @@
       "center": [-15, -60],
       "eras": [
         {
-          "id": "ancient",
-          "label": "Ancient",
-          "range": [-3000, 500],
-          "display": "3000 BCE – 500 CE",
+          "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Maya Civilization",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Maya+Civilization"
-            },
-            {
-              "type": "book",
-              "title": "The Ancient Maya",
-              "creator": "Robert Sharer",
-              "url": "https://openlibrary.org/search?q=Ancient+Maya+Robert+Sharer"
-            }
+            { "type": "video", "title": "Water and Classical Civilizations: Crash Course World History #222", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=rP54LFFSZ1Q" },
+            { "type": "book", "title": "The Ancient Maya", "creator": "Robert Sharer", "url": "https://openlibrary.org/search?q=Ancient+Maya+Robert+Sharer" }
           ]
         },
         {
-          "id": "medieval",
-          "label": "Medieval",
-          "range": [500, 1500],
-          "display": "500 – 1500 CE",
+          "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Aztec Empire",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Aztec+Empire"
-            },
-            {
-              "type": "book",
-              "title": "The Aztecs",
-              "creator": "Michael E. Smith",
-              "url": "https://openlibrary.org/search?q=The+Aztecs+Michael+E+Smith"
-            }
+            { "type": "video", "title": "The Aztec Empire", "creator": "CrashCourse", "url": "https://www.youtube.com/results?search_query=CrashCourse+Aztec+Empire" },
+            { "type": "book", "title": "The Aztecs", "creator": "Michael E. Smith", "url": "https://openlibrary.org/search?q=The+Aztecs+Michael+E+Smith" }
           ]
         },
         {
-          "id": "early-modern",
-          "label": "Early Modern",
-          "range": [1500, 1800],
-          "display": "1500 – 1800 CE",
+          "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Spanish Conquest of the Americas",
-              "creator": "History Matters",
-              "url": "https://www.youtube.com/results?search_query=History+Matters+Spanish+Conquest+Americas"
-            },
-            {
-              "type": "book",
-              "title": "Conquest: Cortes, Montezuma, and the Fall of Old Mexico",
-              "creator": "Hugh Thomas",
-              "url": "https://openlibrary.org/search?q=Conquest+Cortes+Montezuma+Fall+Old+Mexico+Hugh+Thomas"
-            }
+            { "type": "video", "title": "The Spanish Conquest of the Americas", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=History+Matters+Spanish+Conquest+Americas" },
+            { "type": "book", "title": "Conquest: Cortes, Montezuma, and the Fall of Old Mexico", "creator": "Hugh Thomas", "url": "https://openlibrary.org/search?q=Conquest+Cortes+Montezuma+Fall+Old+Mexico+Hugh+Thomas" }
           ]
         },
         {
-          "id": "modern",
-          "label": "Modern",
-          "range": [1800, 1945],
-          "display": "1800 – 1945 CE",
+          "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
           "resources": [
-            {
-              "type": "video",
-              "title": "Latin American Revolutions",
-              "creator": "CrashCourse",
-              "url": "https://www.youtube.com/results?search_query=CrashCourse+Latin+American+Revolutions"
-            },
-            {
-              "type": "book",
-              "title": "Open Veins of Latin America",
-              "creator": "Eduardo Galeano",
-              "url": "https://openlibrary.org/search?q=Open+Veins+Latin+America+Eduardo+Galeano"
-            }
+            { "type": "video", "title": "Latin American Revolutions: Crash Course World History #31", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=ZBw35Ze3bg8" },
+            { "type": "book", "title": "Open Veins of Latin America", "creator": "Eduardo Galeano", "url": "https://openlibrary.org/works/OL43348045W" }
           ]
         },
         {
-          "id": "contemporary",
-          "label": "Contemporary",
-          "range": [1945, 2025],
-          "display": "1945 – Present",
+          "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
           "resources": [
-            {
-              "type": "video",
-              "title": "The Dirty Wars of Latin America",
-              "creator": "DW Documentary",
-              "url": "https://www.youtube.com/results?search_query=DW+Documentary+Dirty+Wars+Latin+America"
-            },
-            {
-              "type": "book",
-              "title": "One Hundred Years of Solitude",
-              "creator": "Gabriel García Márquez",
-              "url": "https://openlibrary.org/search?q=One+Hundred+Years+of+Solitude+Garcia+Marquez"
-            }
+            { "type": "video", "title": "The Dirty Wars of Latin America", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=DW+Documentary+Dirty+Wars+Latin+America" },
+            { "type": "book", "title": "One Hundred Years of Solitude", "creator": "Gabriel García Márquez", "url": "https://openlibrary.org/works/OL33647471W" }
           ]
         }
       ]
