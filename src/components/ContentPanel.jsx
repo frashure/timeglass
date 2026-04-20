@@ -1,3 +1,4 @@
+import countriesData from '../data/countries.json';
 import regionsData from '../data/regions.json';
 
 const TYPE_ICONS = {
@@ -5,18 +6,25 @@ const TYPE_ICONS = {
   book: '📖',
 };
 
-const TYPE_LABELS = {
-  video: 'Video',
-  book: 'Book',
-};
-
-export default function ContentPanel({ regionId, eraId }) {
+function resolveEra(countryId, regionId, eraId) {
+  const country = countriesData[countryId];
+  if (country) {
+    const era = country.eras.find((e) => e.id === eraId);
+    if (era) return { era, name: country.name, isCountrySpecific: true };
+  }
   const region = regionsData.regions[regionId];
-  if (!region) return null;
+  if (region) {
+    const era = region.eras.find((e) => e.id === eraId);
+    if (era) return { era, name: region.name, isCountrySpecific: false };
+  }
+  return null;
+}
 
-  const era = region.eras.find((e) => e.id === eraId);
-  if (!era) return null;
+export default function ContentPanel({ countryId, regionId, eraId }) {
+  const resolved = resolveEra(countryId, regionId, eraId);
+  if (!resolved) return null;
 
+  const { era, name, isCountrySpecific } = resolved;
   const videos = era.resources.filter((r) => r.type === 'video');
   const books = era.resources.filter((r) => r.type === 'book');
 
@@ -24,9 +32,12 @@ export default function ContentPanel({ regionId, eraId }) {
     <div className="content-panel">
       <div className="content-header">
         <h3 className="content-title">
-          {region.name} <span className="content-era-label">· {era.label}</span>
+          {name} <span className="content-era-label">· {era.label}</span>
         </h3>
         <p className="content-era-range">{era.display}</p>
+        {!isCountrySpecific && (
+          <p className="content-fallback-note">Showing regional resources</p>
+        )}
       </div>
 
       {videos.length > 0 && (

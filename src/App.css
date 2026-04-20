@@ -123,6 +123,14 @@
   margin-bottom: 24px;
 }
 
+.timeline-fallback-note,
+.content-fallback-note {
+  font-size: 11px;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
 .timeline-track {
   position: relative;
   display: flex;

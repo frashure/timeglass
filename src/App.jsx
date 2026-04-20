@@ -2,14 +2,19 @@ import { useState } from 'react';
 import WorldMap from './components/WorldMap';
 import TimelinePanel from './components/TimelinePanel';
 import ContentPanel from './components/ContentPanel';
+import REGION_MAPPING from './data/regionMapping.js';
 import './App.css';
 
 export default function App() {
-  const [selectedRegion, setSelectedRegion] = useState(null);
+  const [selectedCountryId, setSelectedCountryId] = useState(null);
   const [selectedEra, setSelectedEra] = useState(null);
 
-  function handleRegionSelect(regionId) {
-    setSelectedRegion(regionId);
+  const selectedRegionId = selectedCountryId != null
+    ? (REGION_MAPPING[selectedCountryId] ?? null)
+    : null;
+
+  function handleCountrySelect(countryId) {
+    setSelectedCountryId(countryId);
     setSelectedEra(null);
   }
 
@@ -21,12 +26,12 @@ export default function App() {
     if (selectedEra) {
       setSelectedEra(null);
     } else {
-      setSelectedRegion(null);
+      setSelectedCountryId(null);
     }
   }
 
-  const showTimeline = selectedRegion !== null;
-  const showContent = selectedRegion !== null && selectedEra !== null;
+  const showTimeline = selectedCountryId !== null;
+  const showContent = selectedCountryId !== null && selectedEra !== null;
 
   return (
     <div className="app">
@@ -40,12 +45,12 @@ export default function App() {
 
       <main className="app-main">
         <div className={`map-container ${showTimeline ? 'map-container--shrunk' : ''}`}>
-          {!selectedRegion && (
-            <div className="map-hint">Click a highlighted region to begin</div>
+          {!selectedCountryId && (
+            <div className="map-hint">Click a highlighted country to begin</div>
           )}
           <WorldMap
-            onRegionSelect={handleRegionSelect}
-            selectedRegion={selectedRegion}
+            onCountrySelect={handleCountrySelect}
+            selectedCountryId={selectedCountryId}
           />
         </div>
 
@@ -55,12 +60,17 @@ export default function App() {
               ← {selectedEra ? 'Back to timeline' : 'Back to map'}
             </button>
             <TimelinePanel
-              regionId={selectedRegion}
+              countryId={selectedCountryId}
+              regionId={selectedRegionId}
               selectedEra={selectedEra}
               onEraSelect={handleEraSelect}
             />
             {showContent && (
-              <ContentPanel regionId={selectedRegion} eraId={selectedEra} />
+              <ContentPanel
+                countryId={selectedCountryId}
+                regionId={selectedRegionId}
+                eraId={selectedEra}
+              />
             )}
           </div>
         )}
