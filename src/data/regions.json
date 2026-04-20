@@ -248,6 +248,211 @@
         }
       ]
     },
+    "russia": {
+      "name": "Russia",
+      "center": [62, 100],
+      "eras": [
+        {
+          "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+          "resources": [
+            { "type": "video", "title": "The Scythians: Nomadic Warriors of the Steppe", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Scythians+steppe+warriors" },
+            { "type": "book", "title": "The Scythians: Nomad Warriors of the Steppe", "creator": "Barry Cunliffe", "url": "https://openlibrary.org/search?q=Scythians+Nomad+Warriors+Steppe+Barry+Cunliffe" }
+          ]
+        },
+        {
+          "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+          "resources": [
+            { "type": "video", "title": "Wait For It…The Mongols!: Crash Course World History #17", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=szxPar0BcMo" },
+            { "type": "book", "title": "The Mongols and Russia", "creator": "George Vernadsky", "url": "https://openlibrary.org/search?q=Mongols+Russia+George+Vernadsky" }
+          ]
+        },
+        {
+          "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+          "resources": [
+            { "type": "video", "title": "Peter the Great and the Modernization of Russia", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Peter+the+Great+Russia+modernization+Kings+and+Generals" },
+            { "type": "book", "title": "Peter the Great: His Life and World", "creator": "Robert K. Massie", "url": "https://openlibrary.org/search?q=Peter+the+Great+His+Life+World+Robert+Massie" }
+          ]
+        },
+        {
+          "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+          "resources": [
+            { "type": "video", "title": "The Russian Revolution", "creator": "CrashCourse", "url": "https://www.youtube.com/results?search_query=CrashCourse+Russian+Revolution+1917" },
+            { "type": "book", "title": "A People's Tragedy: The Russian Revolution 1891–1924", "creator": "Orlando Figes", "url": "https://openlibrary.org/search?q=People%27s+Tragedy+Russian+Revolution+Orlando+Figes" }
+          ]
+        },
+        {
+          "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+          "resources": [
+            { "type": "video", "title": "The Cold War — OverSimplified (Part 1)", "creator": "OverSimplified", "url": "https://www.youtube.com/watch?v=I79TpDe3t2g" },
+            { "type": "book", "title": "The Soviet Union: A Very Short Introduction", "creator": "Stephen Lovell", "url": "https://openlibrary.org/search?q=Soviet+Union+Very+Short+Introduction+Stephen+Lovell" }
+          ]
+        }
+      ]
+    },
+    "eastern-europe": {
+      "name": "Eastern Europe",
+      "center": [52, 24],
+      "eras": [
+        {
+          "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+          "resources": [
+            { "type": "video", "title": "The Origins of the Slavic Peoples", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Origins+Slavic+Peoples+Kings+and+Generals" },
+            { "type": "book", "title": "The Making of the Slavs", "creator": "Florin Curta", "url": "https://openlibrary.org/search?q=Making+of+the+Slavs+Florin+Curta" }
+          ]
+        },
+        {
+          "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+          "resources": [
+            { "type": "video", "title": "The Polish-Lithuanian Commonwealth", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Polish-Lithuanian+Commonwealth+Kings+and+Generals" },
+            { "type": "book", "title": "God's Playground: A History of Poland", "creator": "Norman Davies", "url": "https://openlibrary.org/search?q=God%27s+Playground+History+Poland+Norman+Davies" }
+          ]
+        },
+        {
+          "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+          "resources": [
+            { "type": "video", "title": "The Cossacks and the Ukrainian Steppe", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Cossacks+Ukraine+steppe+history+Kings+and+Generals" },
+            { "type": "book", "title": "Borderlands: A Journey Through the History of Ukraine", "creator": "Anna Reid", "url": "https://openlibrary.org/search?q=Borderlands+Journey+History+Ukraine+Anna+Reid" }
+          ]
+        },
+        {
+          "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+          "resources": [
+            { "type": "video", "title": "The Eastern Front of World War II", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Eastern+Front+World+War+II+Kings+and+Generals" },
+            { "type": "book", "title": "Bloodlands: Europe Between Hitler and Stalin", "creator": "Timothy Snyder", "url": "https://openlibrary.org/search?q=Bloodlands+Europe+Between+Hitler+Stalin+Timothy+Snyder" }
+          ]
+        },
+        {
+          "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+          "resources": [
+            { "type": "video", "title": "The Iron Curtain and the Fall of Communism", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Iron+Curtain+Fall+Communism+Eastern+Europe+DW+documentary" },
+            { "type": "book", "title": "Iron Curtain: The Crushing of Eastern Europe", "creator": "Anne Applebaum", "url": "https://openlibrary.org/search?q=Iron+Curtain+Crushing+Eastern+Europe+Anne+Applebaum" }
+          ]
+        }
+      ]
+    },
+    "central-asia": {
+      "name": "Central Asia",
+      "center": [43, 60],
+      "eras": [
+        {
+          "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+          "resources": [
+            { "type": "video", "title": "The Persian Empire: Crash Course World History #5", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=Q-mkVSasZIM" },
+            { "type": "book", "title": "The Silk Roads: A New History of the World", "creator": "Peter Frankopan", "url": "https://openlibrary.org/search?q=Silk+Roads+New+History+World+Peter+Frankopan" }
+          ]
+        },
+        {
+          "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+          "resources": [
+            { "type": "video", "title": "Tamerlane: The Sword of Islam", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Tamerlane+Timur+Kings+and+Generals" },
+            { "type": "book", "title": "Tamerlane: Sword of Islam, Conqueror of the World", "creator": "Justin Marozzi", "url": "https://openlibrary.org/search?q=Tamerlane+Sword+Islam+Conqueror+World+Marozzi" }
+          ]
+        },
+        {
+          "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+          "resources": [
+            { "type": "video", "title": "The Silk Road and Ancient Trade", "creator": "TED-Ed", "url": "https://www.youtube.com/results?search_query=TED-Ed+Silk+Road+ancient+trade" },
+            { "type": "book", "title": "The Great Game: The Struggle for Empire in Central Asia", "creator": "Peter Hopkirk", "url": "https://openlibrary.org/search?q=Great+Game+Struggle+Empire+Central+Asia+Peter+Hopkirk" }
+          ]
+        },
+        {
+          "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+          "resources": [
+            { "type": "video", "title": "The Great Game: Russia vs Britain in Central Asia", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Great+Game+Russia+Britain+Central+Asia+history" },
+            { "type": "book", "title": "The Great Game: The Struggle for Empire in Central Asia", "creator": "Peter Hopkirk", "url": "https://openlibrary.org/search?q=Great+Game+Struggle+Empire+Central+Asia+Peter+Hopkirk" }
+          ]
+        },
+        {
+          "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+          "resources": [
+            { "type": "video", "title": "Central Asia After the Soviet Union", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Central+Asia+Soviet+Union+independence+DW+documentary" },
+            { "type": "book", "title": "The New Great Game: Blood and Oil in Central Asia", "creator": "Lutz Kleveman", "url": "https://openlibrary.org/search?q=New+Great+Game+Blood+Oil+Central+Asia+Kleveman" }
+          ]
+        }
+      ]
+    },
+    "southeast-asia": {
+      "name": "Southeast Asia",
+      "center": [10, 112],
+      "eras": [
+        {
+          "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+          "resources": [
+            { "type": "video", "title": "The Ancient Kingdoms of Southeast Asia", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Ancient+Kingdoms+Southeast+Asia+history+Funan" },
+            { "type": "book", "title": "The Early History of Southeast Asia", "creator": "Bennet Bronson", "url": "https://openlibrary.org/search?q=Early+History+Southeast+Asia+Bronze+Iron+Age" }
+          ]
+        },
+        {
+          "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+          "resources": [
+            { "type": "video", "title": "Angkor Wat and the Khmer Empire", "creator": "TED-Ed", "url": "https://www.youtube.com/results?search_query=TED-Ed+Angkor+Wat+Khmer+Empire" },
+            { "type": "book", "title": "Angkor and the Khmer Civilization", "creator": "Michael D. Coe", "url": "https://openlibrary.org/search?q=Angkor+Khmer+Civilization+Michael+Coe" }
+          ]
+        },
+        {
+          "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+          "resources": [
+            { "type": "video", "title": "The Spice Trade and the Age of Exploration", "creator": "CrashCourse", "url": "https://www.youtube.com/results?search_query=CrashCourse+Spice+Trade+Southeast+Asia+Dutch" },
+            { "type": "book", "title": "Nathaniel's Nutmeg", "creator": "Giles Milton", "url": "https://openlibrary.org/search?q=Nathaniel%27s+Nutmeg+Giles+Milton+spice+trade" }
+          ]
+        },
+        {
+          "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+          "resources": [
+            { "type": "video", "title": "Colonialism in Southeast Asia", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Colonialism+Southeast+Asia+Dutch+French+British+documentary" },
+            { "type": "book", "title": "Southeast Asia: A Modern History", "creator": "Norman Owen (ed.)", "url": "https://openlibrary.org/search?q=Southeast+Asia+Modern+History+Norman+Owen" }
+          ]
+        },
+        {
+          "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+          "resources": [
+            { "type": "video", "title": "The Vietnam War", "creator": "CrashCourse", "url": "https://www.youtube.com/results?search_query=CrashCourse+Vietnam+War" },
+            { "type": "book", "title": "The Pentagon Papers", "creator": "Neil Sheehan et al.", "url": "https://openlibrary.org/search?q=Pentagon+Papers+Vietnam+War+Neil+Sheehan" }
+          ]
+        }
+      ]
+    },
+    "oceania": {
+      "name": "Oceania",
+      "center": [-25, 140],
+      "eras": [
+        {
+          "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+          "resources": [
+            { "type": "video", "title": "The First Australians: 60,000 Years of History", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=First+Australians+Aboriginal+60000+years+DW+documentary" },
+            { "type": "book", "title": "The Biggest Estate on Earth: How Aborigines Made Australia", "creator": "Bill Gammage", "url": "https://openlibrary.org/search?q=Biggest+Estate+Earth+Aborigines+Made+Australia+Gammage" }
+          ]
+        },
+        {
+          "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+          "resources": [
+            { "type": "video", "title": "The Polynesian Voyagers: How They Settled the Pacific", "creator": "PBS Eons", "url": "https://www.youtube.com/results?search_query=Polynesian+voyagers+Pacific+navigation+PBS+Eons" },
+            { "type": "book", "title": "The Wayfinders: Why Ancient Wisdom Matters in the Modern World", "creator": "Wade Davis", "url": "https://openlibrary.org/search?q=Wayfinders+Ancient+Wisdom+Modern+World+Wade+Davis" }
+          ]
+        },
+        {
+          "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+          "resources": [
+            { "type": "video", "title": "Captain Cook's Voyages of Discovery", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Captain+Cook+Voyages+Pacific+Discovery+documentary" },
+            { "type": "book", "title": "The Voyage of the Beagle", "creator": "Charles Darwin", "url": "https://openlibrary.org/search?q=Voyage+of+the+Beagle+Charles+Darwin" }
+          ]
+        },
+        {
+          "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+          "resources": [
+            { "type": "video", "title": "The Colonization of Australia", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Colonization+Australia+British+history+documentary" },
+            { "type": "book", "title": "The Fatal Shore", "creator": "Robert Hughes", "url": "https://openlibrary.org/search?q=Fatal+Shore+Robert+Hughes+Australia+convicts" }
+          ]
+        },
+        {
+          "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+          "resources": [
+            { "type": "video", "title": "The Pacific War", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Pacific+War+World+War+II" },
+            { "type": "book", "title": "The Tyranny of Distance", "creator": "Geoffrey Blainey", "url": "https://openlibrary.org/search?q=Tyranny+of+Distance+Geoffrey+Blainey+Australia" }
+          ]
+        }
+      ]
+    },
     "latin-america": {
       "name": "Latin America",
       "center": [-15, -60],

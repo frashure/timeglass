@@ -134,6 +134,54 @@ const REGION_MAPPING = {
   462: 'south-asia', // Maldives
   4:   'south-asia', // Afghanistan
 
+  // Russia
+  643: 'russia', // Russia
+
+  // Eastern Europe
+  616: 'eastern-europe', // Poland
+  804: 'eastern-europe', // Ukraine
+  112: 'eastern-europe', // Belarus
+  440: 'eastern-europe', // Lithuania
+  428: 'eastern-europe', // Latvia
+  233: 'eastern-europe', // Estonia
+  498: 'eastern-europe', // Moldova
+
+  // Central Asia
+  398: 'central-asia', // Kazakhstan
+  860: 'central-asia', // Uzbekistan
+  417: 'central-asia', // Kyrgyzstan
+  762: 'central-asia', // Tajikistan
+  795: 'central-asia', // Turkmenistan
+  31:  'central-asia', // Azerbaijan
+  51:  'central-asia', // Armenia
+  268: 'central-asia', // Georgia
+
+  // Southeast Asia
+  104: 'southeast-asia', // Myanmar
+  764: 'southeast-asia', // Thailand
+  704: 'southeast-asia', // Vietnam
+  116: 'southeast-asia', // Cambodia
+  418: 'southeast-asia', // Laos
+  458: 'southeast-asia', // Malaysia
+  360: 'southeast-asia', // Indonesia
+  608: 'southeast-asia', // Philippines
+  702: 'southeast-asia', // Singapore
+  96:  'southeast-asia', // Brunei
+  626: 'southeast-asia', // Timor-Leste
+
+  // Oceania
+  36:  'oceania', // Australia
+  554: 'oceania', // New Zealand
+  242: 'oceania', // Fiji
+  598: 'oceania', // Papua New Guinea
+  90:  'oceania', // Solomon Islands
+  548: 'oceania', // Vanuatu
+  882: 'oceania', // Samoa
+  776: 'oceania', // Tonga
+  585: 'oceania', // Palau
+  583: 'oceania', // Micronesia
+  584: 'oceania', // Marshall Islands
+
   // North America
   840: 'north-america', // United States
   124: 'north-america', // Canada
