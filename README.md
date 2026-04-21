@@ -16,6 +16,11 @@ An interactive world history learning application. Explore the history of any re
 - Middle East & North Africa
 - Sub-Saharan Africa
 - South Asia
+- Russia
+- Eastern Europe
+- Central Asia
+- Southeast Asia
+- Oceania
 - North America
 - Latin America
 
@@ -44,17 +49,20 @@ The app will be available at `http://localhost:5173`.
 ```
 src/
 ├── components/
-│   ├── WorldMap.jsx       # Leaflet map with clickable region overlays
+│   ├── WorldMap.jsx       # Leaflet map with clickable country/region overlays
 │   ├── TimelinePanel.jsx  # Era selector
 │   └── ContentPanel.jsx   # Resource cards (videos + books)
 ├── data/
-│   └── regions.json       # Static content: regions, eras, and resources
+│   ├── regions.json       # Region-level eras and resources
+│   ├── countries.json     # Country-specific eras and resources (overrides region data)
+│   ├── regionMapping.js   # ISO numeric country code → region ID
+│   └── countryNames.js    # ISO numeric country code → display name
 ├── App.jsx
 └── App.css
 ```
 
 ## Known Limitations
 
-- Resource links currently use search-based URLs (YouTube search / Open Library search) rather than pinned direct links. Direct URL verification is a planned follow-up task.
+- Some resource links still use search-based URLs (YouTube search / Open Library search) where direct links could not be verified. The majority have been updated to pinned direct links.
 - Region boundaries on the map are approximate bounding boxes, not precise geographic borders.
-- Content is limited to 7 regions and 5 eras. Expanding coverage will be easier once the Python backend and database are in place.
+- Content is limited to 12 regions and 5 eras per region. Expanding coverage will be easier once the Python backend and database are in place.
