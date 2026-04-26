@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import WorldMap from './components/WorldMap';
 import TimelinePanel from './components/TimelinePanel';
 import ContentPanel from './components/ContentPanel';
@@ -29,6 +29,14 @@ export default function App() {
       setSelectedCountryId(null);
     }
   }
+
+  useEffect(() => {
+    function onKeyDown(e) {
+      if (e.key === 'Escape') handleBack();
+    }
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [selectedCountryId, selectedEra]);
 
   const showTimeline = selectedCountryId !== null;
   const showContent = selectedCountryId !== null && selectedEra !== null;
