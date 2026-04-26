@@ -38,7 +38,7 @@ class Era(Base):
     sort_order = Column(Integer, nullable=False)
 
     regions = relationship("Region", secondary="region_eras", back_populates="eras")
-    countries = relationship("Country", secondary="country_eras", back_populates="countries")
+    countries = relationship("Country", secondary="country_eras", back_populates="eras")
 
 
 class RegionEra(Base):

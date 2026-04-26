@@ -1,40 +1,73 @@
-import countriesData from '../data/countries.json';
-import regionsData from '../data/regions.json';
+import { useState, useEffect } from 'react';
+import { useCountryOrRegion } from '../hooks/useCountryOrRegion.js';
+
+const API_BASE = import.meta.env.VITE_API_URL ?? '';
 
 const TYPE_ICONS = {
   video: '▶',
   book: '📖',
 };
 
-function resolveEra(countryId, regionId, eraId) {
-  const country = countriesData[countryId];
-  if (country) {
-    const era = country.eras.find((e) => e.id === eraId);
-    if (era) return { era, name: country.name, isCountrySpecific: true };
-  }
-  const region = regionsData.regions[regionId];
-  if (region) {
-    const era = region.eras.find((e) => e.id === eraId);
-    if (era) return { era, name: region.name, isCountrySpecific: false };
-  }
-  return null;
-}
-
 export default function ContentPanel({ countryId, regionId, eraId }) {
-  const resolved = resolveEra(countryId, regionId, eraId);
-  if (!resolved) return null;
+  const { loading: scopeLoading, error: scopeError, scope, scopeId, displayName, isCountrySpecific } =
+    useCountryOrRegion(countryId, regionId);
 
-  const { era, name, isCountrySpecific } = resolved;
-  const videos = era.resources.filter((r) => r.type === 'video');
-  const books = era.resources.filter((r) => r.type === 'book');
+  const [eraData, setEraData] = useState(null);
+  const [eraLoading, setEraLoading] = useState(false);
+  const [eraError, setEraError] = useState(null);
+
+  useEffect(() => {
+    if (!scope || !scopeId || !eraId) return;
+
+    let cancelled = false;
+    setEraLoading(true);
+    setEraError(null);
+    setEraData(null);
+
+    (async () => {
+      try {
+        const path = scope === 'country' ? 'countries' : 'regions';
+        const res = await fetch(`${API_BASE}/${path}/${scopeId}/eras/${eraId}`);
+        if (cancelled) return;
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        if (!cancelled) { setEraData(data); setEraLoading(false); }
+      } catch {
+        if (!cancelled) { setEraError('Failed to load resources'); setEraLoading(false); }
+      }
+    })();
+
+    return () => { cancelled = true; };
+  }, [scope, scopeId, eraId]);
+
+  if (scopeLoading || eraLoading) {
+    return (
+      <div className="content-panel">
+        <p className="content-loading">Loading resources…</p>
+      </div>
+    );
+  }
+
+  if (scopeError || eraError) {
+    return (
+      <div className="content-panel">
+        <p className="content-error">Failed to load resources.</p>
+      </div>
+    );
+  }
+
+  if (!eraData) return null;
+
+  const videos = eraData.resources.filter((r) => r.type === 'video');
+  const books = eraData.resources.filter((r) => r.type === 'book');
 
   return (
     <div className="content-panel">
       <div className="content-header">
         <h3 className="content-title">
-          {name} <span className="content-era-label">· {era.label}</span>
+          {displayName} <span className="content-era-label">· {eraData.label}</span>
         </h3>
-        <p className="content-era-range">{era.display}</p>
+        <p className="content-era-range">{eraData.display}</p>
         {!isCountrySpecific && (
           <p className="content-fallback-note">Showing regional resources</p>
         )}
@@ -44,8 +77,8 @@ export default function ContentPanel({ countryId, regionId, eraId }) {
         <section className="resource-section">
           <h4 className="resource-section-title">Videos</h4>
           <ul className="resource-list">
-            {videos.map((resource, i) => (
-              <ResourceCard key={i} resource={resource} />
+            {videos.map((resource) => (
+              <ResourceCard key={resource.id} resource={resource} />
             ))}
           </ul>
         </section>
@@ -55,8 +88,8 @@ export default function ContentPanel({ countryId, regionId, eraId }) {
         <section className="resource-section">
           <h4 className="resource-section-title">Books</h4>
           <ul className="resource-list">
-            {books.map((resource, i) => (
-              <ResourceCard key={i} resource={resource} />
+            {books.map((resource) => (
+              <ResourceCard key={resource.id} resource={resource} />
             ))}
           </ul>
         </section>
