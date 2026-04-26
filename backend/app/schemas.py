@@ -1,4 +1,6 @@
-from pydantic import BaseModel, ConfigDict
+from datetime import datetime
+
+from pydantic import BaseModel, ConfigDict, EmailStr
 
 
 class ResourceOut(BaseModel):
@@ -49,3 +51,42 @@ class CountryOut(BaseModel):
 
 class CountryWithErasOut(CountryOut):
     eras: list[EraOut]
+
+
+# Auth
+
+class UserCreate(BaseModel):
+    email: EmailStr
+    password: str
+
+
+class UserOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    email: str
+    created_at: datetime
+
+
+class Token(BaseModel):
+    access_token: str
+    token_type: str = "bearer"
+
+
+# Bookmarks
+
+class BookmarkCreate(BaseModel):
+    scope: str
+    scope_id: str
+    era_id: str
+
+
+class BookmarkOut(BaseModel):
+    id: int
+    scope: str
+    scope_id: str
+    era_id: str
+    scope_name: str
+    era_label: str
+    era_display: str
+    created_at: datetime

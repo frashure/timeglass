@@ -4,6 +4,8 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     database_url: str = "postgresql://timeglass:timeglass@db:5432/timeglass"
     cors_origins: list[str] = ["http://localhost:8080", "http://localhost:5173"]
+    secret_key: str = "change-me-in-production"
+    access_token_expire_minutes: int = 30
 
     class Config:
         env_file = ".env"

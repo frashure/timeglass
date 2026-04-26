@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Float, ForeignKey, Integer, String
+from sqlalchemy import Column, DateTime, Float, ForeignKey, Integer, String, UniqueConstraint, func
 from sqlalchemy.orm import relationship
 
 from .database import Base
@@ -68,3 +68,30 @@ class Resource(Base):
     era_id = Column(String, ForeignKey("eras.id"), nullable=False)
 
     era = relationship("Era")
+
+
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    email = Column(String, unique=True, nullable=False, index=True)
+    password_hash = Column(String, nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+    bookmarks = relationship("Bookmark", back_populates="user", cascade="all, delete-orphan")
+
+
+class Bookmark(Base):
+    __tablename__ = "bookmarks"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    scope = Column(String, nullable=False)    # "region" | "country"
+    scope_id = Column(String, nullable=False)
+    era_id = Column(String, ForeignKey("eras.id"), nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+    user = relationship("User", back_populates="bookmarks")
+    era = relationship("Era")
+
+    __table_args__ = (UniqueConstraint("user_id", "scope", "scope_id", "era_id"),)

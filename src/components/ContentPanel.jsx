@@ -8,7 +8,10 @@ const TYPE_ICONS = {
   book: '📖',
 };
 
-export default function ContentPanel({ countryId, regionId, eraId }) {
+export default function ContentPanel({
+  countryId, regionId, eraId,
+  user, findBookmark, addBookmark, removeBookmark, onAuthRequired,
+}) {
   const { loading: scopeLoading, error: scopeError, scope, scopeId, displayName, isCountrySpecific } =
     useCountryOrRegion(countryId, regionId);
 
@@ -41,22 +44,27 @@ export default function ContentPanel({ countryId, regionId, eraId }) {
   }, [scope, scopeId, eraId]);
 
   if (scopeLoading || eraLoading) {
-    return (
-      <div className="content-panel">
-        <p className="content-loading">Loading resources…</p>
-      </div>
-    );
+    return <div className="content-panel"><p className="content-loading">Loading resources…</p></div>;
   }
 
   if (scopeError || eraError) {
-    return (
-      <div className="content-panel">
-        <p className="content-error">Failed to load resources.</p>
-      </div>
-    );
+    return <div className="content-panel"><p className="content-error">Failed to load resources.</p></div>;
   }
 
   if (!eraData) return null;
+
+  const currentBookmark = isCountrySpecific && scope && scopeId
+    ? findBookmark(scope, scopeId, eraId)
+    : null;
+
+  async function handleBookmarkToggle() {
+    if (!user) { onAuthRequired(); return; }
+    if (currentBookmark) {
+      await removeBookmark(currentBookmark.id);
+    } else {
+      await addBookmark(scope, scopeId, eraId);
+    }
+  }
 
   const videos = eraData.resources.filter((r) => r.type === 'video');
   const books = eraData.resources.filter((r) => r.type === 'book');
@@ -64,9 +72,21 @@ export default function ContentPanel({ countryId, regionId, eraId }) {
   return (
     <div className="content-panel">
       <div className="content-header">
-        <h3 className="content-title">
-          {displayName} <span className="content-era-label">· {eraData.label}</span>
-        </h3>
+        <div className="content-header-row">
+          <h3 className="content-title">
+            {displayName} <span className="content-era-label">· {eraData.label}</span>
+          </h3>
+          {isCountrySpecific && (
+            <button
+              className={`bookmark-btn ${currentBookmark ? 'bookmark-btn--saved' : ''}`}
+              onClick={handleBookmarkToggle}
+              aria-label={currentBookmark ? 'Remove bookmark' : 'Save bookmark'}
+              title={currentBookmark ? 'Remove bookmark' : 'Save bookmark'}
+            >
+              {currentBookmark ? '★' : '☆'}
+            </button>
+          )}
+        </div>
         <p className="content-era-range">{eraData.display}</p>
         {!isCountrySpecific && (
           <p className="content-fallback-note">Showing regional resources</p>
