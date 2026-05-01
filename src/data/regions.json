@@ -17,21 +17,21 @@
           "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
             { "type": "video", "title": "The Middle Ages in 3½ Hours", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=History+Matters+Middle+Ages+3+hours" },
-            { "type": "book", "title": "The Time Traveller's Guide to Medieval England", "creator": "Ian Mortimer", "url": "https://openlibrary.org/search?q=Time+Traveller%27s+Guide+Medieval+England+Ian+Mortimer" }
+            { "type": "book", "title": "The Time Traveller's Guide to Medieval England", "creator": "Ian Mortimer", "url": "https://openlibrary.org/books/OL32147690M/The_time_traveller's_guide_to_medieval_England" }
           ]
         },
         {
           "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
           "resources": [
             { "type": "video", "title": "The Renaissance: Was it a Thing? — Crash Course World History #22", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=Vufba_ZcoR0" },
-            { "type": "book", "title": "The Cheese and the Worms", "creator": "Carlo Ginzburg", "url": "https://openlibrary.org/search?q=Cheese+and+the+Worms+Carlo+Ginzburg" }
+            { "type": "book", "title": "The Cheese and the Worms", "creator": "Carlo Ginzburg", "url": "https://openlibrary.org/works/OL14872792W" }
           ]
         },
         {
           "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
           "resources": [
             { "type": "video", "title": "World War I: The War That Changed Everything", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=DW+Documentary+World+War+I+Changed+Everything" },
-            { "type": "book", "title": "The Sleepwalkers", "creator": "Christopher Clark", "url": "https://openlibrary.org/search?q=Sleepwalkers+Christopher+Clark" }
+            { "type": "book", "title": "The Sleepwalkers", "creator": "Christopher Clark", "url": "https://openlibrary.org/works/OL17366836W" }
           ]
         },
         {
@@ -72,14 +72,14 @@
           "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
           "resources": [
             { "type": "video", "title": "Samurai, Daimyo, Matthew Perry, and Nationalism: Crash Course World History #34", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=Nosq94oCl_M" },
-            { "type": "book", "title": "The Opium War", "creator": "Julia Lovell", "url": "https://openlibrary.org/search?q=Opium+War+Julia+Lovell" }
+            { "type": "book", "title": "The Opium War", "creator": "Julia Lovell", "url": "https://openlibrary.org/books/OL25205610M/The_Opium_War" }
           ]
         },
         {
           "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
           "resources": [
             { "type": "video", "title": "The Chinese Cultural Revolution", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=DW+Documentary+Chinese+Cultural+Revolution" },
-            { "type": "book", "title": "The Party: The Secret World of China's Communist Rulers", "creator": "Richard McGregor", "url": "https://openlibrary.org/search?q=The+Party+Secret+World+China+Communist+Rulers+Richard+McGregor" }
+            { "type": "book", "title": "The Party: The Secret World of China's Communist Rulers", "creator": "Richard McGregor", "url": "https://openlibrary.org/works/OL24339805W" }
           ]
         }
       ]
@@ -99,7 +99,7 @@
           "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
             { "type": "video", "title": "A Day in the Life of a Teenager in Medieval Baghdad", "creator": "TED-Ed", "url": "https://www.youtube.com/watch?v=CNO9aOlGNkE" },
-            { "type": "book", "title": "The House of Wisdom", "creator": "Jim Al-Khalili", "url": "https://openlibrary.org/search?q=House+of+Wisdom+Jim+Al-Khalili" }
+            { "type": "book", "title": "The House of Wisdom", "creator": "Jim Al-Khalili", "url": "https://openlibrary.org/works/OL15976945W" }
           ]
         },
         {
@@ -112,14 +112,14 @@
         {
           "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
           "resources": [
-            { "type": "video", "title": "The Fall of the Ottoman Empire", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=History+Matters+Fall+Ottoman+Empire" },
+            { "type": "video", "title": "The Fall of the Ottoman Empire", "creator": "History Matters", "url": "https://www.youtube.com/watch?v=96n33WWgE9g" },
             { "type": "book", "title": "A Peace to End All Peace", "creator": "David Fromkin", "url": "https://openlibrary.org/works/OL466594W" }
           ]
         },
         {
           "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
           "resources": [
-            { "type": "video", "title": "The Arab-Israeli Conflict", "creator": "Vox", "url": "https://www.youtube.com/results?search_query=Vox+Arab-Israeli+Conflict+explained" },
+            { "type": "video", "title": "The Israel-Palestine conflict: a brief, simple history", "creator": "Vox", "url": "https://www.youtube.com/watch?v=iRYZjOuUnlU" },
             { "type": "book", "title": "The Arabs: A History", "creator": "Eugene Rogan", "url": "https://openlibrary.org/works/OL19333379W" }
           ]
         }
@@ -174,13 +174,13 @@
           "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
           "resources": [
             { "type": "video", "title": "Indus Valley Civilization: Crash Course World History #2", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=n7ndRwqJYDM" },
-            { "type": "book", "title": "The Hindus: An Alternative History", "creator": "Wendy Doniger", "url": "https://openlibrary.org/search?q=The+Hindus+Alternative+History+Wendy+Doniger" }
+            { "type": "book", "title": "The Hindus: An Alternative History", "creator": "Wendy Doniger", "url": "https://openlibrary.org/books/OL28741904M/Hindus" }
           ]
         },
         {
           "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
-            { "type": "video", "title": "The Gupta Empire", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Gupta+Empire+India" },
+            { "type": "video", "title": "Gupta Empire - Golden Age of Classical India", "creator": "Kings and Generals", "url": "https://www.youtube.com/watch?v=Vu7myRpw4m4" },
             { "type": "book", "title": "Early India: From the Origins to AD 1300", "creator": "Romila Thapar", "url": "https://openlibrary.org/search?q=Early+India+Origins+AD+1300+Romila+Thapar" }
           ]
         },
@@ -255,7 +255,7 @@
         {
           "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
           "resources": [
-            { "type": "video", "title": "The Scythians: Nomadic Warriors of the Steppe", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Scythians+steppe+warriors" },
+            { "type": "video", "title": "Scythians - Rise and Fall of the Original Horselords DOCUMENTARY", "creator": "Kings and Generals", "url": "https://www.youtube.com/watch?v=UuPNMQmwLAQ" },
             { "type": "book", "title": "The Scythians: Nomad Warriors of the Steppe", "creator": "Barry Cunliffe", "url": "https://openlibrary.org/search?q=Scythians+Nomad+Warriors+Steppe+Barry+Cunliffe" }
           ]
         },
@@ -276,8 +276,8 @@
         {
           "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
           "resources": [
-            { "type": "video", "title": "The Russian Revolution", "creator": "CrashCourse", "url": "https://www.youtube.com/results?search_query=CrashCourse+Russian+Revolution+1917" },
-            { "type": "book", "title": "A People's Tragedy: The Russian Revolution 1891–1924", "creator": "Orlando Figes", "url": "https://openlibrary.org/search?q=People%27s+Tragedy+Russian+Revolution+Orlando+Figes" }
+            { "type": "video", "title": "Crash Course World History Russian Revolution", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=QwqvBK3spV0" },
+            { "type": "book", "title": "A People's Tragedy: The Russian Revolution 1891–1924", "creator": "Orlando Figes", "url": "https://openlibrary.org/works/OL72141W" }
           ]
         },
         {
@@ -296,21 +296,21 @@
         {
           "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
           "resources": [
-            { "type": "video", "title": "The Origins of the Slavic Peoples", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Origins+Slavic+Peoples+Kings+and+Generals" },
+            { "type": "video", "title": "Origin of the Slavic People DOCUMENTARY", "creator": "Kings and Generals", "url": "https://www.youtube.com/watch?v=gEFtFs8K0lo" },
             { "type": "book", "title": "The Making of the Slavs", "creator": "Florin Curta", "url": "https://openlibrary.org/search?q=Making+of+the+Slavs+Florin+Curta" }
           ]
         },
         {
           "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
-            { "type": "video", "title": "The Polish-Lithuanian Commonwealth", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Polish-Lithuanian+Commonwealth+Kings+and+Generals" },
-            { "type": "book", "title": "God's Playground: A History of Poland", "creator": "Norman Davies", "url": "https://openlibrary.org/search?q=God%27s+Playground+History+Poland+Norman+Davies" }
+            { "type": "video", "title": "Was Polish-Lithuanian Commonwealth a Real Republic?", "creator": "Kings and Generals", "url": "https://www.youtube.com/watch?v=bFjLbmHpeno" },
+            { "type": "book", "title": "God's Playground: A History of Poland", "creator": "Norman Davies", "url": "https://openlibrary.org/works/OL13637651W" }
           ]
         },
         {
           "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
           "resources": [
-            { "type": "video", "title": "The Cossacks and the Ukrainian Steppe", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Cossacks+Ukraine+steppe+history+Kings+and+Generals" },
+            { "type": "video", "title": "Rise of the Cossacks - Origins of the Ukrainians DOCUMENTARY", "creator": "Kings and Generals", "url": "https://www.youtube.com/watch?v=UQ_ocyTRRIE" },
             { "type": "book", "title": "Borderlands: A Journey Through the History of Ukraine", "creator": "Anna Reid", "url": "https://openlibrary.org/search?q=Borderlands+Journey+History+Ukraine+Anna+Reid" }
           ]
         },
@@ -318,14 +318,14 @@
           "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
           "resources": [
             { "type": "video", "title": "The Eastern Front of World War II", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Eastern+Front+World+War+II+Kings+and+Generals" },
-            { "type": "book", "title": "Bloodlands: Europe Between Hitler and Stalin", "creator": "Timothy Snyder", "url": "https://openlibrary.org/search?q=Bloodlands+Europe+Between+Hitler+Stalin+Timothy+Snyder" }
+            { "type": "book", "title": "Bloodlands: Europe Between Hitler and Stalin", "creator": "Timothy Snyder", "url": "https://openlibrary.org/works/OL15688711W" }
           ]
         },
         {
           "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
           "resources": [
-            { "type": "video", "title": "The Iron Curtain and the Fall of Communism", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Iron+Curtain+Fall+Communism+Eastern+Europe+DW+documentary" },
-            { "type": "book", "title": "Iron Curtain: The Crushing of Eastern Europe", "creator": "Anne Applebaum", "url": "https://openlibrary.org/search?q=Iron+Curtain+Crushing+Eastern+Europe+Anne+Applebaum" }
+            { "type": "video", "title": "The end of a superpower - The collapse of the Soviet Union", "creator": "DW Documentary", "url": "https://www.youtube.com/watch?v=JsPHKDuP-Hk" },
+            { "type": "book", "title": "Iron Curtain: The Crushing of Eastern Europe", "creator": "Anne Applebaum", "url": "https://openlibrary.org/works/OL16681693W" }
           ]
         }
       ]
@@ -338,20 +338,20 @@
           "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
           "resources": [
             { "type": "video", "title": "The Persian Empire: Crash Course World History #5", "creator": "CrashCourse", "url": "https://www.youtube.com/watch?v=Q-mkVSasZIM" },
-            { "type": "book", "title": "The Silk Roads: A New History of the World", "creator": "Peter Frankopan", "url": "https://openlibrary.org/search?q=Silk+Roads+New+History+World+Peter+Frankopan" }
+            { "type": "book", "title": "The Silk Roads: A New History of the World", "creator": "Peter Frankopan", "url": "https://openlibrary.org/books/OL26885668M/The_Silk_Roads" }
           ]
         },
         {
           "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
-            { "type": "video", "title": "Tamerlane: The Sword of Islam", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Tamerlane+Timur+Kings+and+Generals" },
-            { "type": "book", "title": "Tamerlane: Sword of Islam, Conqueror of the World", "creator": "Justin Marozzi", "url": "https://openlibrary.org/search?q=Tamerlane+Sword+Islam+Conqueror+World+Marozzi" }
+            { "type": "video", "title": "Rise of Timur - War against Toqtamish - MONGOL INVASIONS DOCUMENTARY", "creator": "Kings and Generals", "url": "https://www.youtube.com/watch?v=y95sYUkQJuA" },
+            { "type": "book", "title": "Tamerlane: Sword of Islam, Conqueror of the World", "creator": "Justin Marozzi", "url": "https://openlibrary.org/works/OL5934301W" }
           ]
         },
         {
           "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
           "resources": [
-            { "type": "video", "title": "The Silk Road and Ancient Trade", "creator": "TED-Ed", "url": "https://www.youtube.com/results?search_query=TED-Ed+Silk+Road+ancient+trade" },
+            { "type": "video", "title": "The Silk Road: Connecting the ancient world through trade", "creator": "TED-Ed", "url": "https://www.youtube.com/watch?v=vn3e37VWc0k" },
             { "type": "book", "title": "The Great Game: The Struggle for Empire in Central Asia", "creator": "Peter Hopkirk", "url": "https://openlibrary.org/search?q=Great+Game+Struggle+Empire+Central+Asia+Peter+Hopkirk" }
           ]
         },
@@ -365,7 +365,7 @@
         {
           "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
           "resources": [
-            { "type": "video", "title": "Central Asia After the Soviet Union", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Central+Asia+Soviet+Union+independence+DW+documentary" },
+            { "type": "video", "title": "30 years after the collapse of the USSR", "creator": "DW Documentary", "url": "https://www.youtube.com/watch?v=T9QOrjxgHFw" },
             { "type": "book", "title": "The New Great Game: Blood and Oil in Central Asia", "creator": "Lutz Kleveman", "url": "https://openlibrary.org/search?q=New+Great+Game+Blood+Oil+Central+Asia+Kleveman" }
           ]
         }
@@ -386,14 +386,14 @@
           "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
             { "type": "video", "title": "Angkor Wat and the Khmer Empire", "creator": "TED-Ed", "url": "https://www.youtube.com/results?search_query=TED-Ed+Angkor+Wat+Khmer+Empire" },
-            { "type": "book", "title": "Angkor and the Khmer Civilization", "creator": "Michael D. Coe", "url": "https://openlibrary.org/search?q=Angkor+Khmer+Civilization+Michael+Coe" }
+            { "type": "book", "title": "Angkor and the Khmer Civilization", "creator": "Michael D. Coe", "url": "https://openlibrary.org/books/OL22546815M/ANGKOR_AND_THE_KHMER_CIVILIZATION." }
           ]
         },
         {
           "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
           "resources": [
             { "type": "video", "title": "The Spice Trade and the Age of Exploration", "creator": "CrashCourse", "url": "https://www.youtube.com/results?search_query=CrashCourse+Spice+Trade+Southeast+Asia+Dutch" },
-            { "type": "book", "title": "Nathaniel's Nutmeg", "creator": "Giles Milton", "url": "https://openlibrary.org/search?q=Nathaniel%27s+Nutmeg+Giles+Milton+spice+trade" }
+            { "type": "book", "title": "Nathaniel's Nutmeg", "creator": "Giles Milton", "url": "https://openlibrary.org/works/OL1970055W" }
           ]
         },
         {
@@ -426,7 +426,7 @@
         {
           "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
           "resources": [
-            { "type": "video", "title": "The Polynesian Voyagers: How They Settled the Pacific", "creator": "PBS Eons", "url": "https://www.youtube.com/results?search_query=Polynesian+voyagers+Pacific+navigation+PBS+Eons" },
+            { "type": "video", "title": "How did Polynesian wayfinders navigate the Pacific Ocean?", "creator": "TED-Ed", "url": "https://www.youtube.com/watch?v=m8bDCaPhOek" },
             { "type": "book", "title": "The Wayfinders: Why Ancient Wisdom Matters in the Modern World", "creator": "Wade Davis", "url": "https://openlibrary.org/search?q=Wayfinders+Ancient+Wisdom+Modern+World+Wade+Davis" }
           ]
         },

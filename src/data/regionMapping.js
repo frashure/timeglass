@@ -69,7 +69,7 @@ const REGION_MAPPING = {
   706: 'middle-east', // Somalia
   262: 'middle-east', // Djibouti
   232: 'middle-east', // Eritrea
-  32:  'middle-east', // Western Sahara (approximate)
+  732: 'middle-east', // Western Sahara
 
   // Sub-Saharan Africa
   710: 'sub-saharan-africa', // South Africa
@@ -82,7 +82,6 @@ const REGION_MAPPING = {
   288: 'sub-saharan-africa', // Ghana
   384: 'sub-saharan-africa', // Ivory Coast
   120: 'sub-saharan-africa', // Cameroon
-  12:  'sub-saharan-africa', // (Algeria already mapped above)
   180: 'sub-saharan-africa', // DR Congo
   178: 'sub-saharan-africa', // Republic of Congo
   426: 'sub-saharan-africa', // Lesotho
@@ -181,6 +180,7 @@ const REGION_MAPPING = {
   585: 'oceania', // Palau
   583: 'oceania', // Micronesia
   584: 'oceania', // Marshall Islands
+  540: 'oceania', // New Caledonia
 
   // North America
   840: 'north-america', // United States
@@ -223,6 +223,7 @@ const REGION_MAPPING = {
   28:  'latin-america', // Antigua and Barbuda
   212: 'latin-america', // Dominica
   780: 'latin-america', // Trinidad and Tobago
+  238: 'latin-america', // Falkland Islands
 };
 
 export default REGION_MAPPING;

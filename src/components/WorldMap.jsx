@@ -54,8 +54,12 @@ const COLORS = {
   unclickable: '#4a4f5e',
 };
 
+function getCountryId(feature) {
+  return Number(feature.id);
+}
+
 function getRegionId(feature) {
-  return REGION_MAPPING[feature.id] ?? null;
+  return REGION_MAPPING[getCountryId(feature)] ?? null;
 }
 
 function styleFeature(feature, selectedCountryId) {
@@ -68,7 +72,7 @@ function styleFeature(feature, selectedCountryId) {
       weight: 0.5,
     };
   }
-  const isSelected = feature.id === selectedCountryId;
+  const isSelected = getCountryId(feature) === selectedCountryId;
   return {
     color: isSelected ? COLORS.selected : COLORS.default,
     fillColor: isSelected ? COLORS.selected : COLORS.default,
@@ -88,13 +92,14 @@ function CountryLayer({ geojson, selectedCountryId, onCountrySelect }) {
         const regionId = getRegionId(feature);
         if (!regionId) return;
 
+        const countryId = getCountryId(feature);
         const regionName = regionsData.regions[regionId]?.name ?? regionId;
-        const countryName = COUNTRY_NAMES[feature.id] ?? feature.properties?.name ?? '';
+        const countryName = COUNTRY_NAMES[countryId] ?? feature.properties?.name ?? '';
         layer.bindTooltip(`${countryName} — ${regionName}`, { sticky: true });
 
         layer.on({
           mouseover(e) {
-            const isSelected = feature.id === selectedCountryId;
+            const isSelected = countryId === selectedCountryId;
             e.target.setStyle({
               fillOpacity: isSelected ? 0.7 : 0.42,
               weight: isSelected ? 2 : 1.5,
@@ -104,7 +109,7 @@ function CountryLayer({ geojson, selectedCountryId, onCountrySelect }) {
             e.target.setStyle(styleFeature(feature, selectedCountryId));
           },
           click() {
-            onCountrySelect(feature.id);
+            onCountrySelect(countryId);
           },
         });
       }}
