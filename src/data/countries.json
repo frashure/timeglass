@@ -1966,5 +1966,835 @@
         ]
       }
     ]
+  },
+  "422": {
+    "name": "Lebanon",
+    "regionId": "middle-east",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Phoenicians: Inventors of the Alphabet and Masters of the Sea", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Phoenicians+Alphabet+Sea+Traders" },
+          { "type": "book", "title": "The Phoenicians and the West: Politics, Colonies and Trade", "creator": "María Eugenia Aubet", "url": "https://openlibrary.org/search?q=Phoenicians+West+Politics+Colonies+Trade+Maria+Aubet" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Crusader States: The Kingdom of Jerusalem and the Levant", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Crusader+States+Kingdom+Jerusalem+Levant" },
+          { "type": "book", "title": "The Crusades Through Arab Eyes", "creator": "Amin Maalouf", "url": "https://openlibrary.org/search?q=Crusades+Through+Arab+Eyes+Amin+Maalouf" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Mount Lebanon Under the Ottomans", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Mount+Lebanon+Ottoman+Empire+Druze+Maronite+history" },
+          { "type": "book", "title": "Lebanon: A History, 600–2011", "creator": "William Harris", "url": "https://openlibrary.org/search?q=Lebanon+History+600+2011+William+Harris" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The French Mandate and the Creation of Modern Lebanon", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=French+Mandate+Creation+Modern+Lebanon+History+Matters" },
+          { "type": "book", "title": "A Peace to End All Peace: The Fall of the Ottoman Empire and the Creation of the Modern Middle East", "creator": "David Fromkin", "url": "https://openlibrary.org/works/OL466594W" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Lebanon's Civil War and Its Legacy", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Lebanon+Civil+War+legacy+Hezbollah+DW+documentary" },
+          { "type": "book", "title": "Pity the Nation: The Abduction of Lebanon", "creator": "Robert Fisk", "url": "https://openlibrary.org/search?q=Pity+Nation+Abduction+Lebanon+Robert+Fisk" }
+        ]
+      }
+    ]
+  },
+  "788": {
+    "name": "Tunisia",
+    "regionId": "middle-east",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Carthage: The Rise and Fall of a Mediterranean Empire", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Carthage+Rise+Fall+Mediterranean+Empire" },
+          { "type": "book", "title": "Carthage Must Be Destroyed: The Rise and Fall of an Ancient Civilization", "creator": "Richard Miles", "url": "https://openlibrary.org/search?q=Carthage+Must+Be+Destroyed+Rise+Fall+Ancient+Civilization+Richard+Miles" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Arab Conquest of North Africa and the Aghlabid Dynasty", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Arab+conquest+North+Africa+Aghlabid" },
+          { "type": "book", "title": "The Muqaddimah: An Introduction to History", "creator": "Ibn Khaldun", "url": "https://openlibrary.org/search?q=Muqaddimah+Introduction+History+Ibn+Khaldun" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Barbary States and Ottoman Tunisia", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Barbary+States+Ottoman+Tunisia+North+Africa+History+Matters" },
+          { "type": "book", "title": "White Gold: The Extraordinary Story of Thomas Pellow and Islam's One Million White Slaves", "creator": "Giles Milton", "url": "https://openlibrary.org/search?q=White+Gold+Thomas+Pellow+Islam+White+Slaves+Giles+Milton" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "French Tunisia: Colonization and Resistance", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=French+Tunisia+colonization+resistance+protectorate+DW+documentary" },
+          { "type": "book", "title": "A History of Modern Tunisia", "creator": "Kenneth Perkins", "url": "https://openlibrary.org/search?q=History+Modern+Tunisia+Kenneth+Perkins" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Tunisia and the Arab Spring", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Tunisia+Arab+Spring+Jasmine+Revolution+DW+documentary" },
+          { "type": "book", "title": "The Awakening: A History of the Arab Uprisings", "creator": "Robin Wright", "url": "https://openlibrary.org/search?q=Awakening+History+Arab+Uprisings+Robin+Wright" }
+        ]
+      }
+    ]
+  },
+  "729": {
+    "name": "Sudan",
+    "regionId": "middle-east",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Kingdom of Kush: Ancient Nubia and Its Pyramids", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Kingdom+Kush+Ancient+Nubia+Pyramids" },
+          { "type": "book", "title": "The African Origin of Civilization: Myth or Reality", "creator": "Cheikh Anta Diop", "url": "https://openlibrary.org/search?q=African+Origin+Civilization+Myth+Reality+Cheikh+Anta+Diop" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Christian Nubia: The Medieval Kingdoms of Sudan", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Christian+Nubia+Medieval+Kingdoms+Sudan+Makuria+Alwa" },
+          { "type": "book", "title": "Medieval Nubia: A Social and Economic History", "creator": "Adam Simmons", "url": "https://openlibrary.org/search?q=Medieval+Nubia+Social+Economic+History+Sudan" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Funj Sultanate: Sudan's Islamic Empire", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Funj+Sultanate+Sudan+Islamic+Empire+Sennar+history" },
+          { "type": "book", "title": "A History of the Sudan: From the Coming of Islam to the Present Day", "creator": "P.M. Holt & M.W. Daly", "url": "https://openlibrary.org/search?q=History+Sudan+Coming+Islam+Present+Day+Holt+Daly" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The Mahdist War and Anglo-Egyptian Sudan", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Mahdist+War+Anglo+Egyptian+Sudan+History+Matters" },
+          { "type": "book", "title": "The River War: An Account of the Reconquest of the Sudan", "creator": "Winston Churchill", "url": "https://openlibrary.org/search?q=River+War+Reconquest+Sudan+Winston+Churchill" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Sudan: From Independence to Darfur and Division", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Sudan+independence+Darfur+division+South+Sudan+DW+documentary" },
+          { "type": "book", "title": "A Long Way Gone: Memoirs of a Boy Soldier", "creator": "Ishmael Beah", "url": "https://openlibrary.org/search?q=Long+Way+Gone+Memoirs+Boy+Soldier+Ishmael+Beah" }
+        ]
+      }
+    ]
+  },
+  "144": {
+    "name": "Sri Lanka",
+    "regionId": "south-asia",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Ancient Sri Lanka: The Kingdom of Anuradhapura", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Ancient+Sri+Lanka+Anuradhapura" },
+          { "type": "book", "title": "A History of Sri Lanka", "creator": "K.M. de Silva", "url": "https://openlibrary.org/search?q=History+Sri+Lanka+K.M.+de+Silva" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Sinhalese and Tamil Kingdoms of Medieval Sri Lanka", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Sinhalese+Tamil+Kingdoms+Medieval+Sri+Lanka" },
+          { "type": "book", "title": "Anuradhapura: The Ancient Capital of Sri Lanka", "creator": "Senarat Paranavitana", "url": "https://openlibrary.org/search?q=Anuradhapura+Ancient+Capital+Sri+Lanka+Paranavitana" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Ceylon Under Portuguese, Dutch, and British Rule", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Ceylon+Portuguese+Dutch+British+colonization+Sri+Lanka+History+Matters" },
+          { "type": "book", "title": "An Account of the Interior of Ceylon and of Its Inhabitants", "creator": "Robert Knox", "url": "https://openlibrary.org/search?q=Account+Interior+Ceylon+Inhabitants+Robert+Knox" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "British Ceylon: Tea, Rubber, and Independence", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=British+Ceylon+tea+rubber+independence+DW+documentary" },
+          { "type": "book", "title": "A History of Ceylon", "creator": "G.C. Mendis", "url": "https://openlibrary.org/search?q=History+Ceylon+G.C.+Mendis" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Sri Lanka's Civil War: The Tamil Tigers and Its End", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Sri+Lanka+Civil+War+Tamil+Tigers+LTTE+DW+documentary" },
+          { "type": "book", "title": "Anil's Ghost", "creator": "Michael Ondaatje", "url": "https://openlibrary.org/search?q=Anil+Ghost+Michael+Ondaatje+Sri+Lanka" }
+        ]
+      }
+    ]
+  },
+  "524": {
+    "name": "Nepal",
+    "regionId": "south-asia",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Birth of Buddhism: Siddhartha and Ancient Nepal", "creator": "TED-Ed", "url": "https://www.youtube.com/results?search_query=TED-Ed+Birth+Buddhism+Siddhartha+Gautama+Lumbini+Nepal" },
+          { "type": "book", "title": "Buddha", "creator": "Karen Armstrong", "url": "https://openlibrary.org/search?q=Buddha+Karen+Armstrong+biography" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Licchavi and Malla Dynasties of Nepal", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Licchavi+Malla+Dynasties+Nepal+medieval+history" },
+          { "type": "book", "title": "Nepal: The Kingdom in the Himalayas", "creator": "Toni Hagen", "url": "https://openlibrary.org/search?q=Nepal+Kingdom+Himalayas+Toni+Hagen" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Prithvi Narayan Shah and the Unification of Nepal", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Prithvi+Narayan+Shah+Unification+Nepal+Gurkha+history" },
+          { "type": "book", "title": "A History of Nepal", "creator": "John Whelpton", "url": "https://openlibrary.org/search?q=History+Nepal+John+Whelpton" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Nepal and the British Raj: The Gurkha Alliance", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Nepal+British+Raj+Gurkha+Alliance+Rana+History+Matters" },
+          { "type": "book", "title": "Fatalism and Development: Nepal's Search for Modernity", "creator": "Dor Bahadur Bista", "url": "https://openlibrary.org/search?q=Fatalism+Development+Nepal+Search+Modernity+Bista" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Nepal: Monarchy, Maoists, and Democracy", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Nepal+Monarchy+Maoists+Democracy+DW+documentary" },
+          { "type": "book", "title": "Forget Kathmandu: An Elegy for Democracy", "creator": "Manjushree Thapa", "url": "https://openlibrary.org/search?q=Forget+Kathmandu+Elegy+Democracy+Manjushree+Thapa" }
+        ]
+      }
+    ]
+  },
+  "116": {
+    "name": "Cambodia",
+    "regionId": "southeast-asia",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Ancient Kingdoms of the Mekong: Funan and Chenla", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Funan+Chenla+ancient+Cambodia+Mekong" },
+          { "type": "book", "title": "Angkor and the Khmer Civilization", "creator": "Michael D. Coe & Roland Fletcher", "url": "https://openlibrary.org/search?q=Angkor+Khmer+Civilization+Michael+Coe+Roland+Fletcher" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Khmer Empire and Angkor Wat", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Khmer+Empire+Angkor+Wat" },
+          { "type": "book", "title": "The Civilization of Angkor", "creator": "Charles Higham", "url": "https://openlibrary.org/search?q=Civilization+Angkor+Charles+Higham" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Decline of the Khmer Empire and Post-Angkor Cambodia", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Decline+Khmer+Empire+Post+Angkor+Cambodia+history" },
+          { "type": "book", "title": "Cambodia: A History", "creator": "David Chandler", "url": "https://openlibrary.org/search?q=Cambodia+History+David+Chandler" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "French Indochina: Cambodia Under Colonial Rule", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=French+Indochina+Cambodia+colonial+rule+DW+documentary" },
+          { "type": "book", "title": "A History of Cambodia", "creator": "David Chandler", "url": "https://openlibrary.org/search?q=History+Cambodia+David+Chandler" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "The Khmer Rouge and Cambodia's Genocide", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Khmer+Rouge+Cambodia+genocide+Pol+Pot+DW+documentary" },
+          { "type": "book", "title": "First They Killed My Father: A Daughter of Cambodia Remembers", "creator": "Loung Ung", "url": "https://openlibrary.org/search?q=First+They+Killed+My+Father+Daughter+Cambodia+Loung+Ung" }
+        ]
+      }
+    ]
+  },
+  "466": {
+    "name": "Mali",
+    "regionId": "sub-saharan-africa",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Ancient West Africa: The Ghana Empire and Trans-Saharan Trade", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Ancient+West+Africa+Ghana+Empire+Trans+Saharan" },
+          { "type": "book", "title": "The Archaeology of West Africa: From the Earliest Times to 800 AD", "creator": "A.B. Smith", "url": "https://openlibrary.org/search?q=Archaeology+West+Africa+Earliest+Times+800+AD" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Mansa Musa and the Mali Empire", "creator": "TED-Ed", "url": "https://www.youtube.com/results?search_query=TED-Ed+Mansa+Musa+Mali+Empire+richest+person" },
+          { "type": "book", "title": "The Royal Kingdoms of Ghana, Mali, and Songhay: Life in Medieval Africa", "creator": "Patricia and Fredrick McKissack", "url": "https://openlibrary.org/search?q=Royal+Kingdoms+Ghana+Mali+Songhay+Life+Medieval+Africa+McKissack" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Songhai Empire and the Moroccan Invasion", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Songhai+Empire+Moroccan+Invasion+Timbuktu" },
+          { "type": "book", "title": "Timbuktu and the Songhay Empire", "creator": "John O. Hunwick", "url": "https://openlibrary.org/search?q=Timbuktu+Songhay+Empire+John+Hunwick" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "French Sudan: West Africa Under Colonial Rule", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=French+Sudan+West+Africa+Colonial+Rule+Mali+History+Matters" },
+          { "type": "book", "title": "The Scramble for Africa: White Man's Conquest of the Dark Continent from 1876 to 1912", "creator": "Thomas Pakenham", "url": "https://openlibrary.org/search?q=Scramble+Africa+White+Man+Conquest+Dark+Continent+Pakenham" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Mali: Independence, Coups, and the Jihadist Crisis", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Mali+independence+coups+jihadist+crisis+Timbuktu+DW+documentary" },
+          { "type": "book", "title": "The Bad-Ass Librarians of Timbuktu", "creator": "Joshua Hammer", "url": "https://openlibrary.org/search?q=Bad-Ass+Librarians+Timbuktu+Joshua+Hammer" }
+        ]
+      }
+    ]
+  },
+  "288": {
+    "name": "Ghana",
+    "regionId": "sub-saharan-africa",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Ancient West Africa: Before the Empires", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Ancient+West+Africa+before+empires+Ghana" },
+          { "type": "book", "title": "Precolonial Black Africa", "creator": "Cheikh Anta Diop", "url": "https://openlibrary.org/search?q=Precolonial+Black+Africa+Cheikh+Anta+Diop" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Ashanti Kingdom: Gold, Power, and Resistance", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Ashanti+Kingdom+Gold+Power+Resistance" },
+          { "type": "book", "title": "The Akan of Ghana: Pre-European History", "creator": "W.E.F. Ward", "url": "https://openlibrary.org/search?q=Akan+Ghana+Pre-European+History+Ward" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Atlantic Slave Trade: What Too Few Textbooks Told You", "creator": "TED-Ed", "url": "https://www.youtube.com/watch?v=3NXC4Q_4JVg" },
+          { "type": "book", "title": "Lose Your Mother: A Journey Along the Atlantic Slave Route", "creator": "Saidiya Hartman", "url": "https://openlibrary.org/search?q=Lose+Your+Mother+Journey+Atlantic+Slave+Route+Saidiya+Hartman" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The Gold Coast: British Colonialism and the Ashanti Wars", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Gold+Coast+British+Colonialism+Ashanti+Wars+Ghana+History+Matters" },
+          { "type": "book", "title": "Ghana: The Autobiography of Kwame Nkrumah", "creator": "Kwame Nkrumah", "url": "https://openlibrary.org/search?q=Ghana+Autobiography+Kwame+Nkrumah" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Ghana: The First African Country to Gain Independence", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Ghana+first+African+country+independence+Nkrumah+DW+documentary" },
+          { "type": "book", "title": "Neo-Colonialism: The Last Stage of Imperialism", "creator": "Kwame Nkrumah", "url": "https://openlibrary.org/search?q=Neo-Colonialism+Last+Stage+Imperialism+Kwame+Nkrumah" }
+        ]
+      }
+    ]
+  },
+  "192": {
+    "name": "Cuba",
+    "regionId": "latin-america",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Taíno: The First People of the Caribbean", "creator": "PBS Eons", "url": "https://www.youtube.com/results?search_query=Taino+First+People+Caribbean+Cuba+PBS+Eons" },
+          { "type": "book", "title": "The Columbus Myth: Did Men of Bristol Reach America Before Columbus?", "creator": "Colin Wilson & Rand Flem-Ath", "url": "https://openlibrary.org/search?q=Taino+indigenous+Caribbean+Cuba+pre-Columbian+history" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Pre-Columbian Caribbean: The Taíno Civilization", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Pre-Columbian+Caribbean+Taino+Civilization+Cuba+Arawak" },
+          { "type": "book", "title": "The Indigenous People of the Caribbean", "creator": "Samuel Wilson (ed.)", "url": "https://openlibrary.org/search?q=Indigenous+People+Caribbean+Samuel+Wilson" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Spanish Cuba: Sugar, Slavery, and the Caribbean Economy", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Spanish+Cuba+Sugar+Slavery+Caribbean+Economy+History+Matters" },
+          { "type": "book", "title": "Cuba: A New History", "creator": "Richard Gott", "url": "https://openlibrary.org/search?q=Cuba+New+History+Richard+Gott" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The Spanish-American War and Cuban Independence", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Spanish+American+War+Cuban+Independence+History+Matters" },
+          { "type": "book", "title": "Our Man in Havana", "creator": "Graham Greene", "url": "https://openlibrary.org/search?q=Our+Man+Havana+Graham+Greene" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "The Cuban Revolution and the Cold War", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Cuban+Revolution+Cold+War+Castro+DW+documentary" },
+          { "type": "book", "title": "Che Guevara: A Revolutionary Life", "creator": "Jon Lee Anderson", "url": "https://openlibrary.org/search?q=Che+Guevara+Revolutionary+Life+Jon+Lee+Anderson" }
+        ]
+      }
+    ]
+  },
+  "760": {
+    "name": "Syria",
+    "regionId": "middle-east",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Ancient Syria: Ebla, Ugarit, and the Crossroads of Civilizations", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Ancient+Syria+Ebla+Ugarit+civilizations" },
+          { "type": "book", "title": "Syria: A History of the Last Hundred Years", "creator": "John McHugo", "url": "https://openlibrary.org/search?q=Syria+History+Last+Hundred+Years+John+McHugo" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Umayyad Caliphate: Damascus and the First Islamic Empire", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kings+and+Generals+Umayyad+Caliphate+Damascus+Islamic+Empire" },
+          { "type": "book", "title": "The Great Syrian Revolt and the Rise of Arab Nationalism", "creator": "Michael Provence", "url": "https://openlibrary.org/search?q=Great+Syrian+Revolt+Rise+Arab+Nationalism+Michael+Provence" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Ottoman Syria: The Province of Bilad al-Sham", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Ottoman+Syria+Bilad+al-Sham+Province+History+Matters" },
+          { "type": "book", "title": "The Arab Lands Under Ottoman Rule, 1516–1800", "creator": "Jane Hathaway", "url": "https://openlibrary.org/search?q=Arab+Lands+Under+Ottoman+Rule+1516+1800+Jane+Hathaway" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The French Mandate in Syria and the Road to Independence", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=French+Mandate+Syria+Road+Independence+History+Matters" },
+          { "type": "book", "title": "Black Flags: The Rise of ISIS", "creator": "Joby Warrick", "url": "https://openlibrary.org/search?q=Black+Flags+Rise+ISIS+Joby+Warrick" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "The Syrian Civil War: Origins, Conflict, and Consequences", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Syrian+Civil+War+origins+conflict+consequences+DW+documentary" },
+          { "type": "book", "title": "No Turning Back: Life, Loss, and Hope in Wartime Syria", "creator": "Rania Abouzeid", "url": "https://openlibrary.org/search?q=No+Turning+Back+Life+Loss+Hope+Wartime+Syria+Rania+Abouzeid" }
+        ]
+      }
+    ]
+  },
+
+  "12": {
+    "name": "Algeria",
+    "regionId": "middle-east",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Berbers and the Ancient Maghreb", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Ancient+Berbers+Numidia+Jugurtha+North+Africa+Kings+Generals" },
+          { "type": "book", "title": "Jugurtha of Numidia", "creator": "Eve MacDonald", "url": "https://openlibrary.org/search?q=Jugurtha+Numidia+Berber+ancient+North+Africa" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Arab Conquest of North Africa", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Arab+conquest+North+Africa+Maghreb+Umayyad+Kings+Generals" },
+          { "type": "book", "title": "The Almoravids and the Meanings of Jihad", "creator": "Ronald Messier", "url": "https://openlibrary.org/search?q=Almoravids+Almohads+medieval+North+Africa+Maghreb" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Barbary Pirates and Ottoman Algeria", "creator": "Historia Civilis", "url": "https://www.youtube.com/results?search_query=Barbary+pirates+Ottoman+Algeria+Algiers+corsairs" },
+          { "type": "book", "title": "Christian Slaves, Muslim Masters", "creator": "Robert C. Davis", "url": "https://openlibrary.org/search?q=Christian+Slaves+Muslim+Masters+Barbary+corsairs+Davis" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "France Conquers Algeria", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=French+conquest+Algeria+1830+colonization+History+Matters" },
+          { "type": "book", "title": "Abd el-Kader: Hero and Saint of Islam", "creator": "Gustave Dugat", "url": "https://openlibrary.org/search?q=Abd+el-Kader+Algeria+resistance+French+colonialism" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "The Algerian War of Independence Explained", "creator": "Overly Sarcastic Productions", "url": "https://www.youtube.com/results?search_query=Algerian+War+Independence+1954+FLN+France+explained" },
+          { "type": "book", "title": "A Savage War of Peace: Algeria 1954–1962", "creator": "Alistair Horne", "url": "https://openlibrary.org/search?q=Savage+War+of+Peace+Algeria+1954+Alistair+Horne" }
+        ]
+      }
+    ]
+  },
+
+  "400": {
+    "name": "Jordan",
+    "regionId": "middle-east",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Nabataeans and the Lost City of Petra", "creator": "TED-Ed", "url": "https://www.youtube.com/results?search_query=Nabataean+Petra+ancient+Jordan+TED-Ed" },
+          { "type": "book", "title": "Petra: A History", "creator": "Judith McKenzie", "url": "https://openlibrary.org/search?q=Petra+Nabataean+history+Jordan+ancient" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Crusader Castles of Jordan — Karak and Ajloun", "creator": "History Hit", "url": "https://www.youtube.com/results?search_query=Crusader+castles+Jordan+Karak+Ajloun+medieval" },
+          { "type": "book", "title": "The Crusades: A History", "creator": "Jonathan Riley-Smith", "url": "https://openlibrary.org/search?q=Crusades+history+Riley-Smith+Jordan+Levant" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Ottoman Bilad al-Sham — Syria and Transjordan", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Ottoman+Bilad+al-Sham+Syria+Transjordan+province" },
+          { "type": "book", "title": "The Arab Lands Under Ottoman Rule", "creator": "Jane Hathaway", "url": "https://openlibrary.org/search?q=Arab+Lands+Ottoman+Rule+Hathaway+Middle+East" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The Arab Revolt and Lawrence of Arabia", "creator": "Real History", "url": "https://www.youtube.com/results?search_query=Arab+Revolt+Lawrence+Arabia+Hashemite+Transjordan" },
+          { "type": "book", "title": "A Peace to End All Peace", "creator": "David Fromkin", "url": "https://openlibrary.org/works/OL466594W" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Jordan: The Hashemite Kingdom and the Palestinian Question", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Jordan+Hashemite+Kingdom+Palestinian+refugees+modern+DW" },
+          { "type": "book", "title": "Lion of Jordan: The Life of King Hussein in War and Peace", "creator": "Avi Shlaim", "url": "https://openlibrary.org/search?q=Lion+Jordan+King+Hussein+Avi+Shlaim" }
+        ]
+      }
+    ]
+  },
+
+  "887": {
+    "name": "Yemen",
+    "regionId": "middle-east",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Queen of Sheba and Ancient Arabia", "creator": "TED-Ed", "url": "https://www.youtube.com/results?search_query=Queen+Sheba+ancient+Yemen+Saba+Sabaean+TED-Ed" },
+          { "type": "book", "title": "The Queen of Sheba: Legend, Literature and Art", "creator": "St John Simpson", "url": "https://openlibrary.org/search?q=Queen+Sheba+ancient+Yemen+Saba+frankincense+trade" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Medieval Yemen: Zaydi Imams and the Rasulid Dynasty", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=medieval+Yemen+Zaydi+imamate+Rasulid+dynasty" },
+          { "type": "book", "title": "A History of Islamic Societies", "creator": "Ira M. Lapidus", "url": "https://openlibrary.org/search?q=History+Islamic+Societies+Lapidus+Yemen+medieval" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Ottomans in Yemen and the Coffee Trade", "creator": "Tasting History with Max Miller", "url": "https://www.youtube.com/results?search_query=Ottoman+Yemen+coffee+trade+Mocha+port+history" },
+          { "type": "book", "title": "The Land of Uz", "creator": "Charles Forster", "url": "https://openlibrary.org/search?q=Yemen+Mocha+coffee+Ottoman+early+modern+history" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Aden and the British Empire in Yemen", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Aden+British+empire+Yemen+protectorate+colony+history" },
+          { "type": "book", "title": "Aden: British Rule in South Arabia", "creator": "Tom Little", "url": "https://openlibrary.org/search?q=Aden+British+South+Arabia+Yemen+colonial" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Yemen's Civil War Explained", "creator": "Vox", "url": "https://www.youtube.com/results?search_query=Yemen+civil+war+Houthi+Saudi+Arabia+Vox+explained" },
+          { "type": "book", "title": "Yemen Endures: Civil War, Saudi Adventurism and the Future of Arabia", "creator": "Ginny Hill", "url": "https://openlibrary.org/search?q=Yemen+Endures+civil+war+Ginny+Hill" }
+        ]
+      }
+    ]
+  },
+
+  "800": {
+    "name": "Uganda",
+    "regionId": "sub-saharan-africa",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Early Peoples of the Great Lakes Region", "creator": "PBS Eons", "url": "https://www.youtube.com/results?search_query=early+humans+East+Africa+Great+Lakes+Uganda+archaeology" },
+          { "type": "book", "title": "A History of East Africa", "creator": "Zoe Marsh", "url": "https://openlibrary.org/search?q=history+East+Africa+Uganda+Great+Lakes+early" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Kingdoms of Uganda: Buganda and Bunyoro", "creator": "African History Extra", "url": "https://www.youtube.com/results?search_query=Buganda+Bunyoro+Kitara+kingdom+Uganda+medieval+history" },
+          { "type": "book", "title": "Kings of Buganda", "creator": "M.S.M. Kiwanuka", "url": "https://openlibrary.org/search?q=Kings+Buganda+Kiwanuka+Uganda+kingdom+history" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Arab Slave Trade and the East African Interior", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Arab+slave+trade+East+Africa+interior+Uganda+Zanzibar" },
+          { "type": "book", "title": "The Fortunes of Africa", "creator": "Martin Meredith", "url": "https://openlibrary.org/search?q=Fortunes+Africa+Martin+Meredith+slave+trade+exploration" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The Scramble for Africa — Uganda and British East Africa", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Scramble+Africa+Uganda+British+East+Africa+protectorate+History+Matters" },
+          { "type": "book", "title": "The Faithful: A History of the Church Missionary Society in Uganda", "creator": "Louise Pirouet", "url": "https://openlibrary.org/search?q=Uganda+British+protectorate+missionaries+colonial+history" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Idi Amin: Uganda's Brutal Dictator", "creator": "Biographics", "url": "https://www.youtube.com/results?search_query=Idi+Amin+Uganda+dictator+history+Biographics" },
+          { "type": "book", "title": "State of Blood: The Inside Story of Idi Amin", "creator": "Henry Kyemba", "url": "https://openlibrary.org/search?q=State+Blood+Idi+Amin+Uganda+Henry+Kyemba" }
+        ]
+      }
+    ]
+  },
+
+  "834": {
+    "name": "Tanzania",
+    "regionId": "sub-saharan-africa",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Olduvai Gorge: Cradle of Humankind", "creator": "PBS Eons", "url": "https://www.youtube.com/results?search_query=Olduvai+Gorge+human+origins+Tanzania+archaeology+PBS+Eons" },
+          { "type": "book", "title": "Origins Reconsidered: In Search of What Makes Us Human", "creator": "Richard Leakey", "url": "https://openlibrary.org/search?q=Origins+Reconsidered+Leakey+human+evolution+Olduvai" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Zanzibar and the Swahili Coast City-States", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Swahili+Coast+Zanzibar+Kilwa+Indian+Ocean+trade+medieval" },
+          { "type": "book", "title": "The Swahili: The Social Landscape of a Mercantile Society", "creator": "Mark Horton", "url": "https://openlibrary.org/search?q=Swahili+social+landscape+mercantile+Horton+Middleton" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Portuguese and the Swahili Coast", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Portuguese+Swahili+coast+East+Africa+Zanzibar+trade" },
+          { "type": "book", "title": "The Portuguese in East Africa", "creator": "Malyn Newitt", "url": "https://openlibrary.org/search?q=Portuguese+East+Africa+Mozambique+Tanzania+colonial" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "German East Africa: Tanzania Under Colonial Rule", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=German+East+Africa+Tanganyika+Tanzania+colonial+WWI" },
+          { "type": "book", "title": "Maji Maji: Lifting the Fog of War", "creator": "James Giblin", "url": "https://openlibrary.org/search?q=Maji+Maji+uprising+German+East+Africa+Tanzania" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Julius Nyerere and the Birth of Tanzania", "creator": "African History Extra", "url": "https://www.youtube.com/results?search_query=Julius+Nyerere+Tanzania+independence+Ujamaa+socialism" },
+          { "type": "book", "title": "Our Children Will Understand: Julius Nyerere's Legacy in Africa", "creator": "Colin Legum", "url": "https://openlibrary.org/search?q=Nyerere+Tanzania+Ujamaa+socialism+independence+Africa" }
+        ]
+      }
+    ]
+  },
+
+  "716": {
+    "name": "Zimbabwe",
+    "regionId": "sub-saharan-africa",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Great Zimbabwe: Africa's Forgotten City", "creator": "Toldinstone", "url": "https://www.youtube.com/results?search_query=Great+Zimbabwe+ancient+city+Africa+Shona+history" },
+          { "type": "book", "title": "Great Zimbabwe: A Mystery That Has Not Yet Been Solved", "creator": "Innocent Pikirayi", "url": "https://openlibrary.org/search?q=Great+Zimbabwe+archaeology+Shona+Innocent+Pikirayi" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Zimbabwe Plateau and the Kingdom of Mutapa", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kingdom+Mutapa+Zimbabwe+Plateau+Great+Zimbabwe+medieval" },
+          { "type": "book", "title": "The African Past: Chronicles from Antiquity to Modern Times", "creator": "Basil Davidson", "url": "https://openlibrary.org/search?q=African+Past+chronicles+Davidson+Mutapa+Zimbabwe+medieval" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Rozvi Empire and Portuguese Contact in Zimbabwe", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Rozvi+Empire+Zimbabwe+Portuguese+Mutapa+early+modern" },
+          { "type": "book", "title": "Shona and Ndebele of Southern Rhodesia", "creator": "Hilda Kuper", "url": "https://openlibrary.org/search?q=Shona+Ndebele+Zimbabwe+Southern+Rhodesia+history" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Cecil Rhodes and the Colonization of Zimbabwe", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Cecil+Rhodes+Rhodesia+Zimbabwe+BSAC+colonization" },
+          { "type": "book", "title": "The Rulers of Rhodesia: From Earliest Times to the Referendum", "creator": "Kenneth Mackenzie", "url": "https://openlibrary.org/search?q=Rulers+Rhodesia+Zimbabwe+colonial+BSAC+British" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Zimbabwe: From Rhodesia to Mugabe", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Zimbabwe+Rhodesia+UDI+independence+Mugabe+history+DW" },
+          { "type": "book", "title": "Our Votes, Our Guns: Robert Mugabe and the Tragedy of Zimbabwe", "creator": "Martin Meredith", "url": "https://openlibrary.org/search?q=Our+Votes+Our+Guns+Mugabe+Zimbabwe+Meredith" }
+        ]
+      }
+    ]
+  },
+
+  "398": {
+    "name": "Kazakhstan",
+    "regionId": "central-asia",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Scythians and the Saka of the Kazakh Steppe", "creator": "Kings and Generals", "url": "https://www.youtube.com/watch?v=UuPNMQmwLAQ" },
+          { "type": "book", "title": "The Scythians: Nomad Warriors of the Steppe", "creator": "Barry Cunliffe", "url": "https://openlibrary.org/search?q=Scythians+nomad+warriors+steppe+Barry+Cunliffe" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Mongol Conquest of Central Asia", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Mongol+conquest+Central+Asia+Kazakhstan+Genghis+Khan+Kings+Generals" },
+          { "type": "book", "title": "The Mongol Empire: Genghis Khan, His Heirs and the Founding of Modern China", "creator": "John Man", "url": "https://openlibrary.org/search?q=Mongol+Empire+John+Man+Central+Asia+Kazakhstan" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Kazakh Khanate and the Dzungar Wars", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kazakh+Khanate+Dzungar+wars+steppe+early+modern" },
+          { "type": "book", "title": "The History of the Kazakh People", "creator": "Martha Brill Olcott", "url": "https://openlibrary.org/search?q=Kazakhstan+Kazakh+Khanate+history+Olcott+steppe" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Russia Conquers Central Asia — The Great Game", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Russia+conquers+Central+Asia+Great+Game+Kazakhstan+History+Matters" },
+          { "type": "book", "title": "The Kazakhs", "creator": "Martha Brill Olcott", "url": "https://openlibrary.org/search?q=Kazakhs+Martha+Brill+Olcott+Soviet+history" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Kazakhstan: 30 Years After the Soviet Collapse", "creator": "DW Documentary", "url": "https://www.youtube.com/watch?v=T9QOrjxgHFw" },
+          { "type": "book", "title": "Kazakhstan: Unfulfilled Promise", "creator": "Martha Brill Olcott", "url": "https://openlibrary.org/search?q=Kazakhstan+unfulfilled+promise+Olcott+independence+Nazarbayev" }
+        ]
+      }
+    ]
+  },
+
+  "104": {
+    "name": "Myanmar",
+    "regionId": "southeast-asia",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Pyu City-States of Ancient Burma", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Pyu+city+states+ancient+Burma+Myanmar+history" },
+          { "type": "book", "title": "A History of Myanmar Since Ancient Times", "creator": "Michael Aung-Thwin", "url": "https://openlibrary.org/search?q=History+Myanmar+ancient+times+Aung-Thwin+Burma" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Pagan Empire: Burma's First Great Kingdom", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Pagan+Empire+Burma+Bagan+Anawrahta+medieval+Kings+Generals" },
+          { "type": "book", "title": "Mists of Ramanna: The Legend That Was Lower Burma", "creator": "Michael Aung-Thwin", "url": "https://openlibrary.org/search?q=Mists+Ramanna+lower+Burma+Aung-Thwin+medieval" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Toungoo Dynasty: Burma's Greatest Empire", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Toungoo+dynasty+Burma+Myanmar+early+modern+empire" },
+          { "type": "book", "title": "The Alaungpaya Dynasty of Burma", "creator": "G.E. Harvey", "url": "https://openlibrary.org/search?q=Toungoo+Alaungpaya+dynasty+Burma+Myanmar+early+modern" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "British Burma: The Three Anglo-Burmese Wars", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Anglo-Burmese+Wars+British+Burma+Myanmar+colonial" },
+          { "type": "book", "title": "The Glass Palace Chronicle of the Kings of Burma", "creator": "Pe Maung Tin", "url": "https://openlibrary.org/search?q=Burma+British+colonial+Anglo-Burmese+wars+history" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Myanmar's Military Coups and the Rohingya Crisis", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Myanmar+military+coup+Rohingya+Aung+San+Suu+Kyi+DW" },
+          { "type": "book", "title": "The Lady and the Generals: Aung San Suu Kyi and Burma's Struggle for Freedom", "creator": "Peter Popham", "url": "https://openlibrary.org/search?q=Lady+Generals+Aung+San+Suu+Kyi+Burma+Popham" }
+        ]
+      }
+    ]
+  },
+
+  "218": {
+    "name": "Ecuador",
+    "regionId": "latin-america",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Valdivia Culture: America's First Civilization?", "creator": "Archaeology Now", "url": "https://www.youtube.com/results?search_query=Valdivia+culture+Ecuador+ancient+Americas+earliest+civilization" },
+          { "type": "book", "title": "The People of the Mist: Lost Civilizations of the Amazon", "creator": "David Grann", "url": "https://openlibrary.org/search?q=ancient+Ecuador+Valdivia+culture+pre-Columbian+Americas" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Inca Empire: Conquest of the Andes", "creator": "CrashCourse", "url": "https://www.youtube.com/results?search_query=Inca+Empire+Andes+conquest+Quito+Ecuador+CrashCourse" },
+          { "type": "book", "title": "The Incas: New Perspectives", "creator": "Gordon McEwan", "url": "https://openlibrary.org/search?q=Incas+new+perspectives+McEwan+Andes+Ecuador+Quito" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Spanish Conquest of the Inca and the Audiencia of Quito", "creator": "CrashCourse", "url": "https://www.youtube.com/results?search_query=Spanish+conquest+Inca+Quito+Ecuador+Audiencia+colonial" },
+          { "type": "book", "title": "The Conquest of the Incas", "creator": "John Hemming", "url": "https://openlibrary.org/search?q=Conquest+Incas+Hemming+Ecuador+Quito+Spanish" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Simon Bolívar and the Liberation of Ecuador", "creator": "Historia Civilis", "url": "https://www.youtube.com/results?search_query=Simon+Bolivar+Ecuador+liberation+Gran+Colombia+independence" },
+          { "type": "book", "title": "The General in His Labyrinth", "creator": "Gabriel García Márquez", "url": "https://openlibrary.org/search?q=General+His+Labyrinth+Garcia+Marquez+Bolivar+Ecuador" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Ecuador: Oil, Indigenous Rights and Political Instability", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Ecuador+oil+indigenous+rights+political+instability+Correa+DW" },
+          { "type": "book", "title": "Savages", "creator": "Joe Kane", "url": "https://openlibrary.org/search?q=Savages+Joe+Kane+Ecuador+Amazon+Huaorani+oil" }
+        ]
+      }
+    ]
+  },
+
+  "784": {
+    "name": "United Arab Emirates",
+    "regionId": "middle-east",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Bronze Age Arabia: The Dilmun and Magan Civilizations", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Bronze+Age+Arabia+Dilmun+Magan+UAE+Al+Ain+ancient" },
+          { "type": "book", "title": "The United Arab Emirates: An Archaeological and Historical Survey", "creator": "Ronald Codrai", "url": "https://openlibrary.org/search?q=United+Arab+Emirates+archaeological+historical+survey+ancient" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Islamic Arabia: The Gulf in the Early Caliphates", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Islamic+Arabia+Gulf+Caliphate+medieval+Oman+UAE+trade" },
+          { "type": "book", "title": "The Arabian Gulf in Antiquity", "creator": "D.T. Potts", "url": "https://openlibrary.org/search?q=Arabian+Gulf+antiquity+medieval+Potts+UAE+history" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Trucial States and the Pearl Trade of the Persian Gulf", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Trucial+States+pearl+trade+Persian+Gulf+UAE+early+modern" },
+          { "type": "book", "title": "The Pirate Coast", "creator": "Charles E. Davies", "url": "https://openlibrary.org/search?q=Pirate+Coast+Trucial+States+UAE+Gulf+Davies" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Britain and the Trucial States: The Persian Gulf Protectorate", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Britain+Trucial+States+Persian+Gulf+protectorate+UAE+modern" },
+          { "type": "book", "title": "Storm Over the Desert", "creator": "David Holden", "url": "https://openlibrary.org/search?q=UAE+Trucial+States+British+protectorate+modern+Gulf" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "How Dubai Became a Global City", "creator": "Vox", "url": "https://www.youtube.com/results?search_query=Dubai+UAE+rise+global+city+oil+Vox+explained" },
+          { "type": "book", "title": "Dubai: The Story of the World's Fastest City", "creator": "Jim Krane", "url": "https://openlibrary.org/search?q=Dubai+story+worlds+fastest+city+Jim+Krane" }
+        ]
+      }
+    ]
   }
 }
