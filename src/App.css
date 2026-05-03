@@ -631,8 +631,7 @@
   }
 
   .map-container {
-    height: 45dvh;
-    flex: none;
+    flex: 1;
   }
 
   .map-container--shrunk {
