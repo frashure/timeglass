@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useCountryOrRegion } from '../hooks/useCountryOrRegion.js';
 
-const API_BASE = import.meta.env.VITE_API_URL ?? '';
+import API_BASE from '../config.js';
 
 const TYPE_ICONS = {
   video: '▶',

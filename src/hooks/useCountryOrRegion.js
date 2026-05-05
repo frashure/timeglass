@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import COUNTRY_NAMES from '../data/countryNames.js';
 
-const API_BASE = import.meta.env.VITE_API_URL ?? '';
+import API_BASE from '../config.js';
 
 /**
  * Resolves display data for a selected country.

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 
-const API_BASE = import.meta.env.VITE_API_URL ?? '';
+import API_BASE from '../config.js';
 const TOKEN_KEY = 'tg_token';
 
 export function useAuth() {

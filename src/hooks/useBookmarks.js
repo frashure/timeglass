@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const API_BASE = import.meta.env.VITE_API_URL ?? '';
+import API_BASE from '../config.js';
 
 export function useBookmarks(user, token) {
   const [bookmarks, setBookmarks] = useState([]);
