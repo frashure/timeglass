@@ -51,3 +51,4 @@ env/
 
 # Local Containerization
 timeglass.yaml
+build_and_push.sh
