@@ -2796,5 +2796,845 @@
         ]
       }
     ]
+  },
+
+  "40": {
+    "name": "Austria",
+    "regionId": "western-europe",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Noricum and Roman Austria", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Noricum+Celtic+Roman+Austria+Vindobona+ancient" },
+          { "type": "book", "title": "Roman Austria", "creator": "Sheppard Frere", "url": "https://openlibrary.org/search?q=Roman+Austria+Noricum+Pannonia+ancient+archaeology" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Rise of the Habsburgs", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Rise+Habsburgs+Austria+medieval+dynasty+Kings+Generals" },
+          { "type": "book", "title": "The Habsburgs: To Rule the World", "creator": "Martyn Rady", "url": "https://openlibrary.org/search?q=Habsburgs+rule+world+Martyn+Rady" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Ottoman Siege of Vienna 1683", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Ottoman+siege+Vienna+1683+Habsburg+Kings+Generals" },
+          { "type": "book", "title": "Destiny of Europe: The Habsburg Monarchy", "creator": "Andrew Wheatcroft", "url": "https://openlibrary.org/search?q=Habsburg+Monarchy+Wheatcroft+early+modern+Austria" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The Fall of Austria-Hungary", "creator": "CrashCourse", "url": "https://www.youtube.com/results?search_query=Fall+Austria-Hungary+WWI+Habsburg+empire+CrashCourse" },
+          { "type": "book", "title": "The Sleepwalkers: How Europe Went to War in 1914", "creator": "Christopher Clark", "url": "https://openlibrary.org/works/OL17366836W" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Austria: From Anschluss to Neutrality", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Austria+Anschluss+WWII+neutrality+Second+Republic+DW" },
+          { "type": "book", "title": "The Hare with Amber Eyes", "creator": "Edmund de Waal", "url": "https://openlibrary.org/search?q=Hare+Amber+Eyes+Edmund+de+Waal+Vienna+Austria" }
+        ]
+      }
+    ]
+  },
+
+  "56": {
+    "name": "Belgium",
+    "regionId": "western-europe",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Belgae: Caesar's Most Formidable Enemies", "creator": "Toldinstone", "url": "https://www.youtube.com/results?search_query=Belgae+Caesar+Gaul+ancient+Belgium+Roman+conquest" },
+          { "type": "book", "title": "The Celts: A History", "creator": "Dáithí Ó hÓgáin", "url": "https://openlibrary.org/search?q=Celts+history+Belgae+Gaul+ancient+Belgium" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Flanders and the Medieval Cloth Trade", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Flanders+medieval+cloth+trade+Bruges+Ghent+Belgium" },
+          { "type": "book", "title": "Medieval Flanders", "creator": "David Nicholas", "url": "https://openlibrary.org/search?q=Medieval+Flanders+David+Nicholas+cloth+trade+Belgium" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Spanish Netherlands and the Dutch Revolt", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Spanish+Netherlands+Dutch+Revolt+Belgium+Habsburg+early+modern" },
+          { "type": "book", "title": "The Eighty Years' War", "creator": "Geoffrey Parker", "url": "https://openlibrary.org/search?q=Dutch+Revolt+eighty+years+war+Spanish+Netherlands+Parker" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Belgium in World War One: The Western Front", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Belgium+World+War+One+Western+Front+Ypres+Flanders" },
+          { "type": "book", "title": "King Leopold's Ghost", "creator": "Adam Hochschild", "url": "https://openlibrary.org/search?q=King+Leopold+Ghost+Adam+Hochschild+Belgian+Congo" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Belgium: A Country Divided by Language", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Belgium+Flemish+Walloon+language+divide+EU+NATO+DW" },
+          { "type": "book", "title": "The Battlefields of the First World War", "creator": "Peter Barton", "url": "https://openlibrary.org/search?q=battlefields+First+World+War+Belgium+Ypres+Somme" }
+        ]
+      }
+    ]
+  },
+
+  "756": {
+    "name": "Switzerland",
+    "regionId": "western-europe",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Helvetii and Caesar's Gallic Wars", "creator": "Toldinstone", "url": "https://www.youtube.com/results?search_query=Helvetii+Caesar+Gallic+Wars+Switzerland+ancient+Roman" },
+          { "type": "book", "title": "The Celts: A History from Earliest Times to the Present", "creator": "Bernhard Maier", "url": "https://openlibrary.org/search?q=Celts+history+Helvetii+Switzerland+ancient+Maier" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Old Swiss Confederacy and the Battle of Morgarten", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Swiss+Confederacy+Morgarten+1315+medieval+independence" },
+          { "type": "book", "title": "Switzerland: A History", "creator": "Rainer Pöppinghege", "url": "https://openlibrary.org/search?q=Switzerland+history+Swiss+Confederacy+medieval+cantons" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Zwingli, Calvin and the Swiss Reformation", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Zwingli+Calvin+Geneva+Swiss+Reformation+Protestantism" },
+          { "type": "book", "title": "The Swiss Reformation", "creator": "Bruce Gordon", "url": "https://openlibrary.org/search?q=Swiss+Reformation+Zwingli+Calvin+Geneva+Bruce+Gordon" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Swiss Neutrality: How and Why Switzerland Stayed Out of Two World Wars", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Swiss+neutrality+World+Wars+Switzerland+Congress+Vienna" },
+          { "type": "book", "title": "Switzerland and the Second World War", "creator": "Klaus Urner", "url": "https://openlibrary.org/search?q=Switzerland+Second+World+War+neutrality+Urner" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Why Switzerland Is One of the World's Most Unique Countries", "creator": "Wendover Productions", "url": "https://www.youtube.com/results?search_query=Switzerland+unique+country+banking+neutrality+Wendover" },
+          { "type": "book", "title": "Swiss Democracy: Possible Solutions to Conflict in Multicultural Societies", "creator": "Wolf Linder", "url": "https://openlibrary.org/search?q=Swiss+Democracy+Linder+multicultural+direct+democracy" }
+        ]
+      }
+    ]
+  },
+
+  "348": {
+    "name": "Hungary",
+    "regionId": "western-europe",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Pannonia: Rome's Danube Frontier", "creator": "Toldinstone", "url": "https://www.youtube.com/results?search_query=Pannonia+Roman+Danube+frontier+Hungary+ancient" },
+          { "type": "book", "title": "The Danube: A Journey Upriver from the Black Sea to the Black Forest", "creator": "Nick Thorpe", "url": "https://openlibrary.org/search?q=Danube+ancient+Pannonia+Hungary+Roman+archaeology" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Mongol Invasion of Hungary 1241", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Mongol+invasion+Hungary+1241+Batu+Khan+Kings+Generals" },
+          { "type": "book", "title": "A History of Hungary", "creator": "Peter Sugar", "url": "https://openlibrary.org/search?q=History+Hungary+Peter+Sugar+medieval+kingdom" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Battle of Mohács and Ottoman Hungary", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Battle+Mohacs+1526+Ottoman+Hungary+early+modern+Kings+Generals" },
+          { "type": "book", "title": "The Fall of the Medieval Kingdom of Hungary", "creator": "Pál Engel", "url": "https://openlibrary.org/search?q=Fall+medieval+Kingdom+Hungary+Mohacs+Ottoman+Engel" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The Hungarian Revolution of 1848", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Hungarian+Revolution+1848+Kossuth+Austria+Hungary+History+Matters" },
+          { "type": "book", "title": "Hungary: A Short History", "creator": "Norman Stone", "url": "https://openlibrary.org/search?q=Hungary+short+history+Norman+Stone+modern" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "The Hungarian Revolution of 1956", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Hungarian+Revolution+1956+Soviet+uprising+DW+documentary" },
+          { "type": "book", "title": "Twelve Days: The Story of the 1956 Hungarian Revolution", "creator": "Victor Sebestyen", "url": "https://openlibrary.org/search?q=Twelve+Days+1956+Hungarian+Revolution+Victor+Sebestyen" }
+        ]
+      }
+    ]
+  },
+
+  "203": {
+    "name": "Czech Republic",
+    "regionId": "western-europe",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Boii and Celtic Bohemia", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Boii+Celtic+Bohemia+ancient+Czech+Republic+Marcomannic+Wars" },
+          { "type": "book", "title": "The Celts: A Very Short Introduction", "creator": "Barry Cunliffe", "url": "https://openlibrary.org/search?q=Celts+very+short+introduction+Barry+Cunliffe+Bohemia" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Jan Hus and the Hussite Wars", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Jan+Hus+Hussite+Wars+Bohemia+medieval+Czech+Kings+Generals" },
+          { "type": "book", "title": "The Hussite Revolution 1424–1437", "creator": "František Šmahel", "url": "https://openlibrary.org/search?q=Hussite+Revolution+Bohemia+medieval+Czech+Smahel" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Defenestration of Prague and the Thirty Years' War", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Defenestration+Prague+Thirty+Years+War+Bohemia+1618" },
+          { "type": "book", "title": "The Thirty Years War", "creator": "Peter Wilson", "url": "https://openlibrary.org/search?q=Thirty+Years+War+Peter+Wilson+Bohemia+Prague+early+modern" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The Birth of Czechoslovakia and the Munich Agreement", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Czechoslovakia+Munich+Agreement+1938+Sudetenland+History+Matters" },
+          { "type": "book", "title": "Prague Winter", "creator": "Madeleine Albright", "url": "https://openlibrary.org/search?q=Prague+Winter+Madeleine+Albright+Czechoslovakia+WWII" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Prague Spring 1968 and the Velvet Revolution", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Prague+Spring+1968+Velvet+Revolution+1989+Czechoslovakia+DW" },
+          { "type": "book", "title": "The Power of the Powerless", "creator": "Václav Havel", "url": "https://openlibrary.org/search?q=Power+Powerless+Vaclav+Havel+Czechoslovakia+dissident" }
+        ]
+      }
+    ]
+  },
+
+  "642": {
+    "name": "Romania",
+    "regionId": "western-europe",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Trajan's Dacian Wars and the Conquest of Romania", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Trajan+Dacian+Wars+Romania+ancient+Decebalus+Kings+Generals" },
+          { "type": "book", "title": "Dacia: Land of Transylvania, Cornerstone of Ancient Eastern Europe", "creator": "Ion Horațiu Crișan", "url": "https://openlibrary.org/search?q=Dacia+Transylvania+ancient+Romania+Dacians+Roman" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Vlad the Impaler and Medieval Wallachia", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Vlad+Impaler+medieval+Wallachia+Romania+Ottoman+Kings+Generals" },
+          { "type": "book", "title": "Dracula, Prince of Many Faces", "creator": "Radu Florescu", "url": "https://openlibrary.org/search?q=Dracula+Prince+Many+Faces+Florescu+Vlad+Impaler+Romania" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Wallachia and Moldavia Under Ottoman Rule", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Wallachia+Moldavia+Ottoman+Phanariot+Romania+early+modern" },
+          { "type": "book", "title": "A History of Romania", "creator": "Keith Hitchins", "url": "https://openlibrary.org/search?q=History+Romania+Keith+Hitchins+early+modern" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Romania in World War One: The Forgotten Front", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Romania+World+War+One+forgotten+front+independence+History+Matters" },
+          { "type": "book", "title": "Romania: A Historic Perspective", "creator": "Dinu Giurescu", "url": "https://openlibrary.org/search?q=Romania+historic+perspective+Giurescu+modern+independence" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Ceaușescu's Romania and the 1989 Revolution", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Ceausescu+Romania+1989+revolution+communism+DW+documentary" },
+          { "type": "book", "title": "Red Horizons", "creator": "Ion Mihai Pacepa", "url": "https://openlibrary.org/search?q=Red+Horizons+Pacepa+Ceausescu+Romania+communist" }
+        ]
+      }
+    ]
+  },
+
+  "688": {
+    "name": "Serbia",
+    "regionId": "western-europe",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Moesia: Rome's Danubian Province", "creator": "Toldinstone", "url": "https://www.youtube.com/results?search_query=Moesia+Roman+Danube+Serbia+Naissus+Constantine+ancient" },
+          { "type": "book", "title": "The Roman Danube: An Archaeological and Historical Survey", "creator": "David Breeze", "url": "https://openlibrary.org/search?q=Roman+Danube+Serbia+Moesia+archaeological+ancient" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Serbian Empire and the Battle of Kosovo 1389", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Serbian+Empire+Stefan+Dusan+Battle+Kosovo+1389+Kings+Generals" },
+          { "type": "book", "title": "Serbia: A History", "creator": "Stevan Pavlowitch", "url": "https://openlibrary.org/search?q=Serbia+history+Pavlowitch+medieval+empire+Kosovo" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Serbia Under Ottoman Rule", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Serbia+Ottoman+rule+early+modern+Balkan+pashalik" },
+          { "type": "book", "title": "The Balkans: A Short History", "creator": "Mark Mazower", "url": "https://openlibrary.org/search?q=Balkans+short+history+Mark+Mazower+Ottoman+Serbia" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The Assassination of Franz Ferdinand and the Start of WWI", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Assassination+Franz+Ferdinand+Sarajevo+Serbia+WWI+History+Matters" },
+          { "type": "book", "title": "The Trigger: Hunting the Assassin Who Brought the World to War", "creator": "Tim Butcher", "url": "https://openlibrary.org/search?q=Trigger+assassin+WWI+Gavrilo+Princip+Serbia+Butcher" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "The Breakup of Yugoslavia and the Yugoslav Wars", "creator": "Vox", "url": "https://www.youtube.com/results?search_query=Yugoslavia+breakup+wars+Serbia+Milosevic+Kosovo+Vox" },
+          { "type": "book", "title": "The Death of Yugoslavia", "creator": "Laura Silber", "url": "https://openlibrary.org/search?q=Death+Yugoslavia+Laura+Silber+Allan+Little+wars" }
+        ]
+      }
+    ]
+  },
+
+  "686": {
+    "name": "Senegal",
+    "regionId": "sub-saharan-africa",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Early West Africa: The Senegambian Stone Circles", "creator": "PBS Eons", "url": "https://www.youtube.com/results?search_query=Senegambian+stone+circles+ancient+West+Africa+Senegal" },
+          { "type": "book", "title": "A History of West Africa", "creator": "J.D. Fage", "url": "https://openlibrary.org/search?q=History+West+Africa+Fage+ancient+Senegal+Senegambia" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Jolof Empire of Senegal", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Jolof+Empire+Senegal+medieval+West+Africa+Mali+Ghana" },
+          { "type": "book", "title": "Sundiata: An Epic of Old Mali", "creator": "D.T. Niane", "url": "https://openlibrary.org/search?q=Sundiata+epic+old+Mali+Niane+West+Africa+Senegal" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Atlantic Slave Trade and West Africa", "creator": "TED-Ed", "url": "https://www.youtube.com/watch?v=3NXC4Q_4JVg" },
+          { "type": "book", "title": "Futa Toro at the Frontier of the Islamic World", "creator": "David Robinson", "url": "https://openlibrary.org/search?q=Futa+Toro+Senegal+Islamic+frontier+Robinson+early+modern" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "French West Africa and the Scramble for Senegal", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=French+West+Africa+Senegal+colonial+Dakar+scramble+Africa" },
+          { "type": "book", "title": "Slavery and Colonial Rule in French West Africa", "creator": "Martin Klein", "url": "https://openlibrary.org/search?q=Slavery+Colonial+Rule+French+West+Africa+Klein+Senegal" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Senegal: Africa's Model Democracy", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Senegal+democracy+Senghor+independence+West+Africa+DW" },
+          { "type": "book", "title": "Senghor: A Political Biography", "creator": "Janet Vaillant", "url": "https://openlibrary.org/search?q=Senghor+political+biography+Senegal+Negritude+Vaillant" }
+        ]
+      }
+    ]
+  },
+
+  "384": {
+    "name": "Ivory Coast",
+    "regionId": "sub-saharan-africa",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Early Peoples of the West African Forest", "creator": "African History Extra", "url": "https://www.youtube.com/results?search_query=early+peoples+West+African+forest+Ivory+Coast+ancient+archaeology" },
+          { "type": "book", "title": "The Prehistory of Africa", "creator": "J. Desmond Clark", "url": "https://openlibrary.org/search?q=Prehistory+Africa+Desmond+Clark+West+Africa+Ivory+Coast" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Mali and Songhai Empires of West Africa", "creator": "CrashCourse", "url": "https://www.youtube.com/results?search_query=Mali+Songhai+Empire+West+Africa+CrashCourse+medieval" },
+          { "type": "book", "title": "The Kingdom of Kongo: Civil War and Transition", "creator": "John Thornton", "url": "https://openlibrary.org/search?q=West+Africa+medieval+Kong+kingdom+Ivory+Coast+Mande" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "European Contact and the Slave Trade on the Ivory Coast", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Ivory+Coast+European+contact+slave+trade+Gold+Coast+early+modern" },
+          { "type": "book", "title": "Warfare in Atlantic Africa 1500–1800", "creator": "John Thornton", "url": "https://openlibrary.org/search?q=Warfare+Atlantic+Africa+Thornton+Ivory+Coast+slave+trade" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "French Ivory Coast: Colonization and the Cocoa Economy", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=French+Ivory+Coast+colonization+cocoa+coffee+colonial+history" },
+          { "type": "book", "title": "The French Presence in Black Africa", "creator": "Robert Delavignette", "url": "https://openlibrary.org/search?q=French+Presence+Black+Africa+Ivory+Coast+colonial+Delavignette" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Ivory Coast: From Houphouët-Boigny to Civil War", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Ivory+Coast+Houphouet-Boigny+civil+war+Gbagbo+independence+DW" },
+          { "type": "book", "title": "The Mask of Anarchy: The Destruction of Liberia and the Religious Dimension of an African Civil War", "creator": "Stephen Ellis", "url": "https://openlibrary.org/search?q=Ivory+Coast+civil+war+Cote+d'Ivoire+Gbagbo+contemporary+history" }
+        ]
+      }
+    ]
+  },
+
+  "24": {
+    "name": "Angola",
+    "regionId": "sub-saharan-africa",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Bantu Migration and Early Central Africa", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Bantu+migration+early+Central+Africa+Angola+ancient+archaeology" },
+          { "type": "book", "title": "The African Iron Age", "creator": "P.L. Shinnie", "url": "https://openlibrary.org/search?q=African+Iron+Age+Bantu+migration+Angola+ancient+archaeology" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Kingdom of Kongo", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kingdom+Kongo+medieval+Angola+Congo+Kings+Generals" },
+          { "type": "book", "title": "The Kingdom of Kongo: Civil War and Transition, 1641–1718", "creator": "John Thornton", "url": "https://openlibrary.org/search?q=Kingdom+Kongo+Thornton+Angola+medieval+Africa" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Queen Nzinga and the Resistance to Portuguese Colonialism", "creator": "TED-Ed", "url": "https://www.youtube.com/results?search_query=Queen+Nzinga+Angola+Portuguese+resistance+TED-Ed" },
+          { "type": "book", "title": "Africa and Africans in the Making of the Atlantic World", "creator": "John Thornton", "url": "https://openlibrary.org/search?q=Africa+Africans+Making+Atlantic+World+Thornton+Angola+slave+trade" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Portuguese Angola: Forced Labor and Colonial Exploitation", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Portuguese+Angola+forced+labor+colonial+exploitation+modern" },
+          { "type": "book", "title": "Angola Under the Portuguese", "creator": "Gerald Bender", "url": "https://openlibrary.org/search?q=Angola+Under+Portuguese+Bender+colonial+modern+history" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Angola's Civil War: MPLA vs UNITA", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Angola+civil+war+MPLA+UNITA+independence+1975+DW+documentary" },
+          { "type": "book", "title": "Angola: The Last Cold War Conflict", "creator": "Piero Gleijeses", "url": "https://openlibrary.org/search?q=Angola+civil+war+MPLA+UNITA+Cold+War+Gleijeses" }
+        ]
+      }
+    ]
+  },
+
+  "578": {
+    "name": "Norway",
+    "regionId": "western-europe",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Bronze Age Scandinavia", "creator": "PBS Eons", "url": "https://www.youtube.com/results?search_query=Bronze+Age+Scandinavia+Norway+ancient+archaeology+PBS+Eons" },
+          { "type": "book", "title": "The Norsemen in the Viking Age", "creator": "Eric Christiansen", "url": "https://openlibrary.org/search?q=Norsemen+Viking+Age+Christiansen+ancient+Norway" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Viking Age: Raiders, Traders and Settlers", "creator": "CrashCourse", "url": "https://www.youtube.com/results?search_query=Viking+Age+Norway+raiders+traders+settlers+CrashCourse" },
+          { "type": "book", "title": "The Age of the Vikings", "creator": "Anders Winroth", "url": "https://openlibrary.org/search?q=Age+Vikings+Anders+Winroth+Norway+medieval" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Norway Under Danish Rule: The Kalmar Union", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Norway+Danish+rule+Kalmar+Union+Reformation+early+modern" },
+          { "type": "book", "title": "A History of Scandinavia", "creator": "T.K. Derry", "url": "https://openlibrary.org/search?q=History+Scandinavia+Derry+Norway+Denmark+early+modern" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Norwegian Independence and the Union with Sweden", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Norwegian+independence+1905+union+Sweden+Napoleonic+History+Matters" },
+          { "type": "book", "title": "Norway: A History from the Vikings to Our Own Times", "creator": "Knut Helle", "url": "https://openlibrary.org/search?q=Norway+history+Vikings+modern+times+Helle" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Norway's Oil Fund: How a Country Saved Its Wealth", "creator": "Wendover Productions", "url": "https://www.youtube.com/results?search_query=Norway+oil+fund+wealth+sovereign+Wendover+contemporary" },
+          { "type": "book", "title": "Quisling: A Study in Treachery", "creator": "Oddvar Bjørgum", "url": "https://openlibrary.org/search?q=Quisling+Norway+WWII+occupation+Nazi+treachery" }
+        ]
+      }
+    ]
+  },
+
+  "372": {
+    "name": "Ireland",
+    "regionId": "western-europe",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Ancient Ireland: Celts, Druids and Newgrange", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Ancient+Ireland+Celts+Druids+Newgrange+Bronze+Age+mythology" },
+          { "type": "book", "title": "The Celts: A History", "creator": "Peter Berresford Ellis", "url": "https://openlibrary.org/search?q=Celts+history+Peter+Berresford+Ellis+ancient+Ireland" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "How Irish Monks Saved Civilization", "creator": "TED-Ed", "url": "https://www.youtube.com/results?search_query=Irish+monks+saved+civilization+Book+of+Kells+Viking+raids+TED-Ed" },
+          { "type": "book", "title": "How the Irish Saved Civilization", "creator": "Thomas Cahill", "url": "https://openlibrary.org/search?q=How+Irish+Saved+Civilization+Thomas+Cahill+medieval+monasticism" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Tudor Conquest of Ireland and the Ulster Plantation", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Tudor+conquest+Ireland+Ulster+Plantation+Cromwell+early+modern" },
+          { "type": "book", "title": "The Plantation of Ulster", "creator": "Jonathan Bardon", "url": "https://openlibrary.org/search?q=Plantation+Ulster+Jonathan+Bardon+Ireland+early+modern" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The Great Irish Famine", "creator": "CrashCourse", "url": "https://www.youtube.com/results?search_query=Great+Irish+Famine+1845+potato+blight+emigration+CrashCourse" },
+          { "type": "book", "title": "The Great Hunger: Ireland 1845–1849", "creator": "Cecil Woodham-Smith", "url": "https://openlibrary.org/search?q=Great+Hunger+Ireland+1845+famine+Woodham-Smith" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "The Troubles: Northern Ireland's Conflict Explained", "creator": "Vox", "url": "https://www.youtube.com/results?search_query=Troubles+Northern+Ireland+IRA+conflict+Good+Friday+Vox" },
+          { "type": "book", "title": "Say Nothing: A True Story of Murder and Memory in Northern Ireland", "creator": "Patrick Radden Keefe", "url": "https://openlibrary.org/search?q=Say+Nothing+Patrick+Radden+Keefe+Northern+Ireland+Troubles" }
+        ]
+      }
+    ]
+  },
+
+  "208": {
+    "name": "Denmark",
+    "regionId": "western-europe",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Denmark's Bog Bodies and the Iron Age", "creator": "PBS Eons", "url": "https://www.youtube.com/results?search_query=Denmark+bog+bodies+Iron+Age+Tollund+Man+ancient+archaeology" },
+          { "type": "book", "title": "The Bog People: Iron Age Man Preserved", "creator": "P.V. Glob", "url": "https://openlibrary.org/search?q=Bog+People+Iron+Age+Glob+Denmark+ancient+archaeology" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Danes: Masters of the Viking Age", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Danes+Viking+Age+masters+Sweyn+Forkbeard+Cnut+England+medieval" },
+          { "type": "book", "title": "The Hammer and the Cross: A New History of the Vikings", "creator": "Robert Ferguson", "url": "https://openlibrary.org/search?q=Hammer+Cross+Vikings+Ferguson+Denmark+medieval" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Denmark's Maritime Empire and the Northern Wars", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Denmark+maritime+empire+Northern+Wars+Kalmar+Union+early+modern" },
+          { "type": "book", "title": "The Baltic: A History", "creator": "Michael North", "url": "https://openlibrary.org/search?q=Baltic+history+Michael+North+Denmark+early+modern+empire" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Denmark in World War Two: Occupation and Rescue", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Denmark+World+War+Two+occupation+rescue+Jews+Nazi+DW" },
+          { "type": "book", "title": "A History of Denmark", "creator": "Knud J.V. Jespersen", "url": "https://openlibrary.org/search?q=History+Denmark+Jespersen+modern+Napoleonic+constitution" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "How Denmark Became the World's Happiest Country", "creator": "Vox", "url": "https://www.youtube.com/results?search_query=Denmark+happiest+country+welfare+state+Hygge+Vox" },
+          { "type": "book", "title": "The Almost Nearly Perfect People: Behind the Myth of the Scandinavian Utopia", "creator": "Michael Booth", "url": "https://openlibrary.org/search?q=Almost+Nearly+Perfect+People+Scandinavian+Denmark+Michael+Booth" }
+        ]
+      }
+    ]
+  },
+
+  "860": {
+    "name": "Uzbekistan",
+    "regionId": "central-asia",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Alexander the Great in Bactria and Sogdia", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Alexander+Great+Bactria+Sogdia+Uzbekistan+Samarkand+ancient" },
+          { "type": "book", "title": "The Greek Kingdom of Bactria", "creator": "Frank Holt", "url": "https://openlibrary.org/search?q=Greek+Kingdom+Bactria+Holt+Uzbekistan+Alexander+ancient" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Tamerlane and the Timurid Empire", "creator": "Kings and Generals", "url": "https://www.youtube.com/watch?v=y95sYUkQJuA" },
+          { "type": "book", "title": "Tamerlane: Sword of Islam, Conqueror of the World", "creator": "Justin Marozzi", "url": "https://openlibrary.org/works/OL5934301W" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Silk Road: Samarkand and the Uzbek Khanates", "creator": "TED-Ed", "url": "https://www.youtube.com/watch?v=vn3e37VWc0k" },
+          { "type": "book", "title": "The Silk Roads: A New History of the World", "creator": "Peter Frankopan", "url": "https://openlibrary.org/search?q=Silk+Roads+new+history+world+Frankopan+Uzbekistan+Samarkand" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Russia's Conquest of Central Asia", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Russia+conquest+Central+Asia+Uzbekistan+Bukhara+Khiva+19th+century" },
+          { "type": "book", "title": "The Great Game: The Struggle for Empire in Central Asia", "creator": "Peter Hopkirk", "url": "https://openlibrary.org/search?q=Great+Game+struggle+empire+Central+Asia+Hopkirk+Uzbekistan" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Uzbekistan: 30 Years After Independence", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Uzbekistan+independence+Karimov+Soviet+collapse+DW+30+years" },
+          { "type": "book", "title": "Apricot Desert: My Bicycle Journey Through Uzbekistan", "creator": "Michael Pullman", "url": "https://openlibrary.org/search?q=Uzbekistan+contemporary+Karimov+authoritarian+independence+history" }
+        ]
+      }
+    ]
+  },
+
+  "268": {
+    "name": "Georgia",
+    "regionId": "central-asia",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Colchis and the Golden Fleece: Ancient Georgia", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Colchis+Golden+Fleece+ancient+Georgia+Iberia+Caucasus" },
+          { "type": "book", "title": "The Making of the Georgian Nation", "creator": "Ronald Grigor Suny", "url": "https://openlibrary.org/search?q=Making+Georgian+Nation+Suny+ancient+Colchis+Iberia" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Georgian Golden Age: Queen Tamar and the Knight in the Panther's Skin", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Georgia+Golden+Age+Queen+Tamar+medieval+Rustaveli+Caucasus" },
+          { "type": "book", "title": "A History of Georgia", "creator": "David Marshall Lang", "url": "https://openlibrary.org/search?q=History+Georgia+David+Marshall+Lang+medieval+Golden+Age" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Georgia Between Persia and the Ottomans", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Georgia+Safavid+Persia+Ottoman+Caucasus+early+modern+conflict" },
+          { "type": "book", "title": "The Knight in the Panther's Skin", "creator": "Shota Rustaveli", "url": "https://openlibrary.org/search?q=Knight+Panther+Skin+Rustaveli+Georgia+medieval+epic" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Georgia Under the Russian Empire and Brief Independence", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Georgia+Russian+Empire+annexation+1801+brief+independence+1918+Soviet" },
+          { "type": "book", "title": "Young Stalin", "creator": "Simon Sebag Montefiore", "url": "https://openlibrary.org/search?q=Young+Stalin+Simon+Sebag+Montefiore+Georgia+Tbilisi+biography" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Georgia's Rose Revolution and War with Russia", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Georgia+Rose+Revolution+war+Russia+2008+South+Ossetia+DW" },
+          { "type": "book", "title": "Caucasus: A Journey to the Land Between Christianity and Islam", "creator": "Nicholas Griffin", "url": "https://openlibrary.org/search?q=Caucasus+journey+Christianity+Islam+Griffin+Georgia+contemporary" }
+        ]
+      }
+    ]
+  },
+
+  "51": {
+    "name": "Armenia",
+    "regionId": "central-asia",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Urartu and the Ancient Kingdom of Armenia", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Urartu+ancient+Kingdom+Armenia+Tigran+Great+ancient" },
+          { "type": "book", "title": "Armenia: A Historical Atlas", "creator": "Robert Hewsen", "url": "https://openlibrary.org/search?q=Armenia+historical+atlas+Hewsen+ancient+Urartu+Tigran" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Armenia: The First Christian Nation", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Armenia+first+Christian+nation+301+AD+Bagratid+kingdom+medieval" },
+          { "type": "book", "title": "A History of Armenian Literature", "creator": "Kevork Bardakjian", "url": "https://openlibrary.org/search?q=Armenia+Bagratid+kingdom+medieval+Cilician+Armenia+history" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Armenia Between the Ottomans and Safavids", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Armenia+Ottoman+Safavid+early+modern+Caucasus+Persia" },
+          { "type": "book", "title": "The Armenians: A People in Exile", "creator": "David Marshall Lang", "url": "https://openlibrary.org/search?q=Armenians+people+exile+David+Marshall+Lang+Ottoman+Safavid" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The Armenian Genocide", "creator": "Vox", "url": "https://www.youtube.com/results?search_query=Armenian+Genocide+1915+Ottoman+Vox+explained" },
+          { "type": "book", "title": "The Burning Tigris: The Armenian Genocide and America's Response", "creator": "Peter Balakian", "url": "https://openlibrary.org/search?q=Burning+Tigris+Armenian+Genocide+Peter+Balakian" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Nagorno-Karabakh: The Conflict Between Armenia and Azerbaijan", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Nagorno-Karabakh+Armenia+Azerbaijan+conflict+DW+documentary" },
+          { "type": "book", "title": "Black Garden: Armenia and Azerbaijan Through Peace and War", "creator": "Thomas de Waal", "url": "https://openlibrary.org/search?q=Black+Garden+Armenia+Azerbaijan+Thomas+de+Waal" }
+        ]
+      }
+    ]
+  },
+
+  "858": {
+    "name": "Uruguay",
+    "regionId": "latin-america",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Charrúa: Indigenous Peoples of Uruguay", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Charrua+indigenous+peoples+Uruguay+ancient+pre-Columbian" },
+          { "type": "book", "title": "The Guaraní and Their Heritage", "creator": "Bartomeu Melià", "url": "https://openlibrary.org/search?q=Charrua+indigenous+Uruguay+ancient+pre-Columbian+River+Plate" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "Pre-Columbian Peoples of the Río de la Plata", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=pre-Columbian+Rio+de+la+Plata+Uruguay+Guarani+Charrua+medieval" },
+          { "type": "book", "title": "A Brief History of the Caribbean", "creator": "Jan Rogozinski", "url": "https://openlibrary.org/search?q=Rio+de+la+Plata+pre-Columbian+peoples+Uruguay+medieval" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Banda Oriental: Spanish and Portuguese Contest for Uruguay", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Banda+Oriental+Spanish+Portuguese+Uruguay+Montevideo+colonial" },
+          { "type": "book", "title": "The Rio de la Plata in the Colonial Era", "creator": "Jonathan Brown", "url": "https://openlibrary.org/search?q=Rio+Plata+colonial+era+Uruguay+Banda+Oriental+Spanish" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "José Artigas and Uruguayan Independence", "creator": "Historia Civilis", "url": "https://www.youtube.com/results?search_query=Jose+Artigas+Uruguay+independence+Banda+Oriental+Brazil" },
+          { "type": "book", "title": "Uruguay: Portrait of a Democracy", "creator": "Russell Fitzgibbon", "url": "https://openlibrary.org/search?q=Uruguay+portrait+democracy+Fitzgibbon+modern+Batlle" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Uruguay: Latin America's Most Progressive Country", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Uruguay+progressive+Mujica+democracy+Latin+America+DW" },
+          { "type": "book", "title": "A Rare Commodity: The Life of José Mujica", "creator": "Andrés Danza", "url": "https://openlibrary.org/search?q=Jose+Mujica+Uruguay+president+Danza+Tulbovitz+biography" }
+        ]
+      }
+    ]
+  },
+
+  "508": {
+    "name": "Mozambique",
+    "regionId": "sub-saharan-africa",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The Bantu Expansion and Early Southeast Africa", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Bantu+expansion+early+southeast+Africa+Mozambique+ancient" },
+          { "type": "book", "title": "A History of Mozambique", "creator": "Malyn Newitt", "url": "https://openlibrary.org/search?q=History+Mozambique+Malyn+Newitt+ancient+Bantu+Swahili" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Swahili Coast and Indian Ocean Trade", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Swahili+coast+Indian+Ocean+trade+Mozambique+Sofala+medieval" },
+          { "type": "book", "title": "Sofala and the Gold Trade of the Zimbabwe Plateau", "creator": "David Beach", "url": "https://openlibrary.org/search?q=Sofala+gold+trade+Zimbabwe+Mozambique+medieval+Swahili" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "Vasco da Gama and the Portuguese in East Africa", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Vasco+da+Gama+Portuguese+East+Africa+Mozambique+early+modern" },
+          { "type": "book", "title": "The Portuguese in East Africa", "creator": "Malyn Newitt", "url": "https://openlibrary.org/search?q=Portuguese+East+Africa+Newitt+Mozambique+colonial+early+modern" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Portuguese Mozambique: Forced Labor and the Prazeros", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Portuguese+Mozambique+forced+labor+prazeros+colonial+modern" },
+          { "type": "book", "title": "Mozambique: The Revolution and Its Origins", "creator": "Barry Munslow", "url": "https://openlibrary.org/search?q=Mozambique+revolution+origins+Munslow+colonial+modern" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Mozambique: Independence, Civil War and Reconstruction", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Mozambique+independence+FRELIMO+civil+war+RENAMO+reconstruction+DW" },
+          { "type": "book", "title": "Mozambique: FRELIMO's Liberation and Civil War", "creator": "Barnabé Lucas Ncomo", "url": "https://openlibrary.org/search?q=Mozambique+FRELIMO+independence+civil+war+RENAMO+contemporary" }
+        ]
+      }
+    ]
+  },
+
+  "516": {
+    "name": "Namibia",
+    "regionId": "sub-saharan-africa",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "The San People: Africa's Ancient Hunter-Gatherers", "creator": "PBS Eons", "url": "https://www.youtube.com/results?search_query=San+Bushmen+ancient+hunter+gatherers+Namibia+southern+Africa+PBS" },
+          { "type": "book", "title": "The Bushmen: San Hunters and Herders of Southern Africa", "creator": "Phillip Tobias", "url": "https://openlibrary.org/search?q=Bushmen+San+hunters+herders+southern+Africa+Namibia+ancient" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Khoikhoi and Early Southern Africa", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=Khoikhoi+Nama+Herero+southern+Africa+Namibia+medieval+Bantu" },
+          { "type": "book", "title": "A History of Namibia: From the Beginning to 1990", "creator": "Marion Wallace", "url": "https://openlibrary.org/search?q=History+Namibia+beginning+1990+Marion+Wallace+medieval+Khoikhoi" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "European Contact with Southern Africa", "creator": "History with Cy", "url": "https://www.youtube.com/results?search_query=European+contact+southern+Africa+Namibia+Khoikhoi+Portuguese+Dutch" },
+          { "type": "book", "title": "Commoners and Cattle Raiders: Ethnicity and State Formation in Southern Africa", "creator": "Andrew Manson", "url": "https://openlibrary.org/search?q=southern+Africa+Namibia+early+modern+Nama+Herero+Ovambo+history" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "The Herero and Nama Genocide: Germany's First Genocide", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Herero+Nama+genocide+German+South+West+Africa+Namibia+DW" },
+          { "type": "book", "title": "The Kaiser's Holocaust: Germany's Forgotten Genocide", "creator": "David Olusoga", "url": "https://openlibrary.org/search?q=Kaiser+Holocaust+Germany+forgotten+genocide+Herero+Namibia+Olusoga" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Namibia's Independence: SWAPO and the End of Apartheid Rule", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Namibia+independence+SWAPO+Sam+Nujoma+South+Africa+apartheid+DW" },
+          { "type": "book", "title": "Where Others Wavered: The Autobiography of Sam Nujoma", "creator": "Sam Nujoma", "url": "https://openlibrary.org/search?q=Sam+Nujoma+autobiography+Namibia+SWAPO+independence" }
+        ]
+      }
+    ]
+  },
+
+  "191": {
+    "name": "Croatia",
+    "regionId": "western-europe",
+    "eras": [
+      {
+        "id": "ancient", "label": "Ancient", "range": [-3000, 500], "display": "3000 BCE – 500 CE",
+        "resources": [
+          { "type": "video", "title": "Diocletian's Palace and Roman Dalmatia", "creator": "Toldinstone", "url": "https://www.youtube.com/results?search_query=Diocletian+Palace+Split+Roman+Dalmatia+Croatia+ancient" },
+          { "type": "book", "title": "Roman Dalmatia", "creator": "J.J. Wilkes", "url": "https://openlibrary.org/search?q=Roman+Dalmatia+Wilkes+Croatia+ancient+Illyrians+Diocletian" }
+        ]
+      },
+      {
+        "id": "medieval", "label": "Medieval", "range": [500, 1500], "display": "500 – 1500 CE",
+        "resources": [
+          { "type": "video", "title": "The Kingdom of Croatia and Dubrovnik", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Kingdom+Croatia+Dubrovnik+Ragusa+medieval+Hungary+union" },
+          { "type": "book", "title": "Croatia: A History", "creator": "Ivo Goldstein", "url": "https://openlibrary.org/search?q=Croatia+history+Ivo+Goldstein+medieval+kingdom" }
+        ]
+      },
+      {
+        "id": "early-modern", "label": "Early Modern", "range": [1500, 1800], "display": "1500 – 1800 CE",
+        "resources": [
+          { "type": "video", "title": "The Croatian Military Frontier Against the Ottomans", "creator": "Kings and Generals", "url": "https://www.youtube.com/results?search_query=Croatian+Military+Frontier+Ottoman+Habsburg+Krajina+early+modern" },
+          { "type": "book", "title": "The Ottoman Wars: An Empire Besieged", "creator": "Virginia Aksan", "url": "https://openlibrary.org/search?q=Ottoman+Wars+empire+besieged+Croatia+Military+Frontier+Aksan" }
+        ]
+      },
+      {
+        "id": "modern", "label": "Modern", "range": [1800, 1945], "display": "1800 – 1945 CE",
+        "resources": [
+          { "type": "video", "title": "Croatia in WWI and the Formation of Yugoslavia", "creator": "History Matters", "url": "https://www.youtube.com/results?search_query=Croatia+WWI+formation+Yugoslavia+Illyrian+movement+history" },
+          { "type": "book", "title": "Yugoslavia: A History of Its Demise", "creator": "Viktor Meier", "url": "https://openlibrary.org/search?q=Yugoslavia+history+demise+Viktor+Meier+Croatia+modern" }
+        ]
+      },
+      {
+        "id": "contemporary", "label": "Contemporary", "range": [1945, 2025], "display": "1945 – Present",
+        "resources": [
+          { "type": "video", "title": "Croatia's War of Independence 1991–1995", "creator": "DW Documentary", "url": "https://www.youtube.com/results?search_query=Croatia+War+Independence+1991+1995+Homeland+War+DW" },
+          { "type": "book", "title": "The Fall of Yugoslavia", "creator": "Misha Glenny", "url": "https://openlibrary.org/search?q=Fall+Yugoslavia+Misha+Glenny+Croatia+war+independence" }
+        ]
+      }
+    ]
   }
 }
